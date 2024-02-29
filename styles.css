@@ -76,3 +76,30 @@ body{
 .main-nav a:hover, .main-nav a.active{
     color: var(--text-color);
 }
+
+.theme-toggler{
+    background-color: #0071bc;
+    display: flex;
+    justify-content: space-between;
+    width: 67.2px;
+    height: 25.6px;
+    cursor: pointer;
+    border: 1px solid #081b29;
+    border-radius: 5px;
+}
+
+.theme-toggler span{
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #081b29;
+}
+
+.theme-toggler span.active{
+    background: #ededed;
+    color: #0071bc;
+    border-radius: 5px;
+}
