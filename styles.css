@@ -1,0 +1,38 @@
+/*General Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+    /***ROOT Variables***/
+
+:root{
+    --bg-darkmode: #112d32;
+    --text-color: #ededed;
+    --deco-color: #0071bc;
+}
+
+    /***Light Theme Variables***/
+
+.light-theme{
+    --bg-darkmode: #ededed;
+    --text-color: #05014a;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-darkmode);
+    color: var(--text-color);
+}
