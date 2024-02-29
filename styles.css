@@ -103,3 +103,10 @@ body{
     color: #0071bc;
     border-radius: 5px;
 }
+
+#menu_icon{
+    font-size: 57.6px;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
