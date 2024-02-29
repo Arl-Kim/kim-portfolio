@@ -36,3 +36,43 @@ body{
     background-color: var(--bg-darkmode);
     color: var(--text-color);
 }
+
+
+/*Header Styles*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 32px 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#logo_left{
+    color: var(--text-color);
+}
+
+#logo_right{
+    color: var(--deco-color);
+}
+
+.main-nav a{
+    color: var(--deco-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 56px;
+    transition: all 400ms ease-in-out;
+}
+
+.main-nav a:hover, .main-nav a.active{
+    color: var(--text-color);
+}
