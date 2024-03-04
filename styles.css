@@ -44,7 +44,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 32px 9%;
+    padding: 2rem 9%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ body{
 
 .logo{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 3.5rem;
 }
 
 #logo_left{
@@ -67,9 +67,9 @@ body{
 
 .main-nav a{
     color: var(--deco-color);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 500;
-    margin-left: 56px;
+    margin-left: 5.5rem;
     transition: all 400ms ease-in-out;
 }
 
@@ -105,7 +105,7 @@ body{
 }
 
 #menu_icon{
-    font-size: 57.6px;
+    font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
     display: none;
@@ -116,7 +116,7 @@ body{
 
 section{
     min-height: 100vh;
-    padding: 160px 9% 32px;
+    padding: 10rem 9% 2rem;
 }
 
 .home{
@@ -126,11 +126,11 @@ section{
 }
 
 .home-content{
-    max-width: 960px;
+    max-width: 60rem;
 }
 
 .home-content h1{
-    font-size: 38px;
+    font-size: 3.6rem;
     font-weight: 700;
     line-height: 1.3;
 }
