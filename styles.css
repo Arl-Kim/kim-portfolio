@@ -155,3 +155,65 @@ section{
     text-align: justify;
     line-height: 1.3;
 }
+
+    /***CTA Buttons Styles***/
+
+.cta-buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 5rem;
+}
+
+.cta-buttons .btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--deco-color);
+    border: 0.2rem solid var(--deco-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: var(--bg-darkmode);
+    z-index: 1;
+    overflow: hidden;
+    transition: all 400ms ease-in-out;
+}
+
+.cta-buttons .btn:hover{
+    color: var(--deco-color);
+}
+
+.cta-buttons .btn:nth-child(2){
+    background: transparent;
+    color: var(--deco-color);
+}
+
+.cta-buttons .btn:nth-child(2):hover{
+    color: var(--bg-darkmode);
+}
+
+.cta-buttons .btn:nth-child(2)::before{
+    background: var(--deco-color);
+}
+
+.cta-buttons .btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-darkmode);
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+}
+
+.cta-buttons .btn:hover::before{
+    width: 100%;
+}
