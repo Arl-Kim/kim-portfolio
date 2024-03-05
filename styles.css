@@ -240,4 +240,27 @@ section{
     height: 40px;
     border: 0.2rem solid var(--deco-color);
     border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 400ms ease-in-out;
+}
+
+.home-socials a:hover{
+    color: var(--bg-darkmode);
+}
+
+.home-socials a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--deco-color);
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+}
+
+.home-socials a:hover::before{
+    width: 100%;
 }
