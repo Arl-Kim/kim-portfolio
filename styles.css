@@ -217,3 +217,27 @@ section{
 .cta-buttons .btn:hover::before{
     width: 100%;
 }
+
+    /***Social Icons Styles***/
+
+.home-socials{
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-socials a{
+    background: transparent;
+    color: var(--deco-color);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 0.2rem solid var(--deco-color);
+    border-radius: 5px;
+}
