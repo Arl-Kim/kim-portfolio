@@ -278,9 +278,13 @@ section{
 }
 
 .heading{
-    font-size: 5rem;
+    font-size: 3.4rem;
     margin-bottom: 3rem;
     text-align: center;
+}
+
+span{
+    color: var(--deco-color);
 }
 
 .about-img{
