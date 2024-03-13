@@ -383,6 +383,17 @@ span{
     padding-left: 2rem;
 }
 
+.education-box .education-content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--deco-color);
+    border-radius: 50%;
+}
+
 .education-content .content{
     position: relative;
     padding: 1.5rem;
