@@ -319,3 +319,26 @@ span{
     border-left: 0.2rem solid var(--deco-color);
     border-right: 0.2rem solid var(--deco-color);
 }
+
+.about-content{
+    text-align: center;
+}
+
+.about-content h3{
+    font-size: 2rem;
+}
+
+.about-content p{
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
+    line-height: 1.5;
+}
+
+.cta-buttons.btns{
+    display: inline-block;
+    width: 15rem;
+}
+
+.cta-buttons.btns a::before{
+    background: var(--second-bg-color);
+}
