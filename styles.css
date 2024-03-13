@@ -26,6 +26,7 @@
 .light-theme{
     --bg-darkmode: #ededed;
     --text-color: #081b29;
+    --second-bg-color: #fff;
 }
 
 html{
@@ -275,6 +276,7 @@ section{
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+    background: var(--second-bg-color);
     padding-bottom: 6rem;
 }
 
