@@ -342,3 +342,15 @@ span{
 .cta-buttons.btns a::before{
     background: var(--second-bg-color);
 }
+
+
+/*Education Section Styles*/
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
