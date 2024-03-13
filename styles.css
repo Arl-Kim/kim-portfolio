@@ -400,6 +400,23 @@ span{
     border: 0.2rem solid var(--deco-color);
     border-radius: 5px;
     margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.education-content .content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+}
+
+.education-content .content:hover::before{
+    width: 100%;
 }
 
 .education-content .content .year{
