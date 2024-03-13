@@ -390,3 +390,13 @@ span{
     border-radius: 5px;
     margin-bottom: 2rem;
 }
+
+.education-content .content .year{
+    font-size: 1.5rem;
+    color: var(--deco-color);
+    padding-bottom: 0.5rem;
+}
+
+.education-content .content .year i{
+    padding-right: 0.5rem;
+}
