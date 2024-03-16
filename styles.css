@@ -499,6 +499,7 @@ span{
     border-radius: 2px;
 }
 
+    /***Progress Bar Percentages***/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
     width: 98%;
 }
@@ -513,4 +514,20 @@ span{
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
+    width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
+    width: 97%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
+    width: 92%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
+    width: 99%;
 }
