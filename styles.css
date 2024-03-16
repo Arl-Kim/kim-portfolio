@@ -438,3 +438,27 @@ span{
     font-size: 1.2rem;
     padding-top: 0.5rem;
 }
+
+
+/*Skills Section Styles*/
+
+.skills{
+    min-height: auto;
+    padding-bottom: 7rem;
+    background: var(--second-bg-color);
+}
+
+.skills .skills-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.skills-row .skills-column{
+    flex: 1 1 40rem;
+}
+
+.skills-column .title{
+    font-size: 2rem;
+    margin: 0 0 1.5rem;
+}
