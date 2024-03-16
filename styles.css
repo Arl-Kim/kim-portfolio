@@ -462,3 +462,24 @@ span{
     font-size: 2rem;
     margin: 0 0 1.5rem;
 }
+
+.skills-box .skills-content{
+    position: relative;
+    border: 0.2rem solid var(--deco-color);
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+}
+
+.skills-content .progress{
+    padding: 1rem 0;
+}
+
+.skills-content .progress h3{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .progress h3 span{
+    color: var(--text-color);
+}
