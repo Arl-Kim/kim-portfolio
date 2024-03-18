@@ -642,3 +642,14 @@ footer{
 .footer-text p{
     font-size: 1.2rem;
 }
+
+.footer-iconTop a{
+    background: var(--deco-color);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border: 0.2rem solid var(--deco-color);
+    border-radius: 5px;
+}
