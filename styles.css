@@ -652,4 +652,32 @@ footer{
     padding: 0.8rem;
     border: 0.2rem solid var(--deco-color);
     border-radius: 5px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-iconTop a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+}
+
+.footer-iconTop a:hover::before{
+    width: 100%;
+}
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--bg-darkmode);
+    transition: all 400ms ease-in-out;
+}
+
+.footer-iconTop a:hover i{
+    color: var(--deco-color);
 }
