@@ -626,3 +626,19 @@ span{
 .contact form .cta-buttons.btns .btn{
     cursor: pointer;
 } 
+
+
+/*Footer Section Styles*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p{
+    font-size: 1.2rem;
+}
