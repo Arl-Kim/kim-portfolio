@@ -12,6 +12,17 @@ themeToggler.addEventListener("click", () => {
 })
 
 
+//Toggle Icon Navigation Bar
+
+let menuIcon = document.querySelector('#menu_icon');
+let navigationBar = document.querySelector('.main-nav');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navigationBar.classList.toggle('active');
+}
+
+
 //Scroll Sections
 
 let sections = document.querySelectorAll("section");
