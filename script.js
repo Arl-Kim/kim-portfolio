@@ -10,3 +10,13 @@ themeToggler.addEventListener("click", () => {
     themeToggler.querySelector("span:nth-child(1)").classList.toggle("active");
     themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
 })
+
+
+//Scroll Sections
+
+window.onscroll = () => {
+    //Sticky Header
+    let header = document.querySelector("header");
+
+    header.classList.toggle("sticky", window.scrollY > 100);
+}
