@@ -737,4 +737,13 @@ footer{
         font-size: 2rem;
         margin: 3rem 0;
     }
+
+    .theme-toggler{
+        width: 60px;
+        height: 20px;
+    }
+
+    .theme-toggler span{
+        font-size: 12px;
+    }
 }
