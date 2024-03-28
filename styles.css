@@ -725,11 +725,18 @@ footer{
     .main-nav{
         position: absolute;
         top: 100%;
-        left: 0;
+        left: -100%;
         width: 100%;
         padding: 1rem 4%;
         background: var(--bg-darkmode);
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        transition: all 400ms ease-in-out;
+        transition-delay: 25ms;
+    }
+
+    .main-nav.active{
+        left: 0;
+        transition-delay: 0s;
     }
 
     .main-nav a{
