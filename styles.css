@@ -778,7 +778,7 @@ footer{
 
 @media (max-width: 462px){
     .home-content h1{
-        font-size: 5.2rem;
+        font-size: 4.2rem;
     }
 
     .education{
@@ -795,5 +795,23 @@ footer{
 
     .footer p{
         margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 371px){
+    .home{
+        justify-content: center;
+    }
+
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-content h1{
+        font-size: 4rem;
     }
 }
