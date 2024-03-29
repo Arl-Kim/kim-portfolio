@@ -153,6 +153,21 @@ section{
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: 0.7px var(--deco-color);
+    background-image: linear-gradient(var(--deco-color), var(--deco-color));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+}
+
+.home-content .animated-text h3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 2px solid var(--deco-color);
+    z-index: -1;
 }
 
 .home-content p{
