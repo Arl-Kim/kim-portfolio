@@ -156,7 +156,7 @@ section{
     background-image: linear-gradient(var(--deco-color), var(--deco-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: 0 0;
+    background-position: -33rem 0;
     animation: homeBgText 6s linear infinite;
     animation-delay: 2s;
 }
@@ -170,6 +170,8 @@ section{
     height: 100%;
     border-right: 2px solid var(--deco-color);
     z-index: -1;
+    animation: homeCursorText 6s linear infinite;
+    animation-delay: 2s;
 }
 
 .home-content p{
