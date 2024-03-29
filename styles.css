@@ -157,6 +157,8 @@ section{
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
 }
 
 .home-content .animated-text h3::before{
@@ -828,5 +830,41 @@ footer{
 
     .home-content h1{
         font-size: 4rem;
+    }
+}
+
+
+/*Animation KEYFRAMES*/
+
+@keyframes homeBgText {
+    0%, 
+    10%, 
+    100%{
+        background-position: -33rem 0;
+    }
+
+    65%,
+    85%{
+        background-position: 0 0;
+    }
+}
+
+@keyframes homeCursorText {
+    0%, 
+    10%, 
+    100%{
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85%{
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    81%{
+        opacity: 0;
     }
 }
