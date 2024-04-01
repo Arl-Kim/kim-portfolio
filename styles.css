@@ -60,6 +60,7 @@ body{
 }
 
 .logo{
+    position: relative;
     font-weight: 700;
     font-size: 3.5rem;
 }
@@ -70,6 +71,10 @@ body{
 
 #logo_right{
     color: var(--deco-color);
+}
+
+.main-nav{
+    position: relative;
 }
 
 .main-nav a{
@@ -112,6 +117,7 @@ body{
 }
 
 #menu_icon{
+    position: relative;
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
@@ -707,6 +713,24 @@ footer{
     color: var(--deco-color);
 }
 
+/*Reload & Scroll Animation */
+
+.animate{
+    background: var(--second-bg-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+}
+
+.logo .animate,
+.main-nav .animate,
+#menu_icon .animate{
+    animation: showRight 1s ease forwards;
+    animation-delay: calc(0.3s * var(--i));
+}
 
 /*Responsive Design BREAKPOINTS*/
 
@@ -876,5 +900,11 @@ footer{
 @keyframes aboutSpinner{
     100%{
         transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes showRight{
+    100%{
+        width: 0;
     }
 }
