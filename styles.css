@@ -314,6 +314,7 @@ section{
 }
 
 .heading{
+    position: relative;
     font-size: 3.4rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -359,10 +360,13 @@ span{
 }
 
 .about-content h3{
+    position: relative;
+    display: inline-block;
     font-size: 2rem;
 }
 
 .about-content p{
+    position: relative;
     font-size: 1.2rem;
     margin: 2rem 0 3rem;
     line-height: 1.5;
@@ -738,6 +742,17 @@ footer{
 .home.show-animate .animate{
     animation: showRight 1s ease forwards;
     animation-delay: calc(0.3s * var(--i));
+}
+
+.animate.scroll{
+    transition: 1s ease;
+    transition-delay: calc(0.3s / var(--i));
+    animation: none;
+}
+
+.about.show-animate .animate.scroll{
+    transition-delay: calc(0.3s * var(--i));
+    width: 0;
 }
 
 /*Responsive Design BREAKPOINTS*/
