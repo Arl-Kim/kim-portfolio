@@ -738,7 +738,7 @@ footer{
 /*Reload & Scroll Animation */
 
 .animate{
-    background: var(--second-bg-color);
+    background: var(--bg-darkmode);
     position: absolute;
     top: 0;
     right: 0;
@@ -763,6 +763,10 @@ footer{
     transition: 1s ease;
     transition-delay: calc(0.3s / var(--i));
     animation: none;
+}
+
+section:nth-child(odd) .animate.scroll{
+    background: var(--second-bg-color);
 }
 
 .education .education-box .animate.scroll{
