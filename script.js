@@ -41,6 +41,14 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
+
+            //Active sections during scroll animations
+            sec.classList.add('show-animate');
+        }
+
+        //For repetitive animations on scroll
+        else{
+            sec.classList.remove('show-animate');
         }
     });
 
