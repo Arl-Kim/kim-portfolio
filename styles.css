@@ -873,6 +873,13 @@ section:nth-child(odd) .animate.scroll{
         align-items: center;
     }
 
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .home-content span.animate{
         display: none;
     }
@@ -938,13 +945,6 @@ section:nth-child(odd) .animate.scroll{
 @media (max-width: 371px){
     .home{
         justify-content: center;
-    }
-
-    .home-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
 
     .home-content h1{
