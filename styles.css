@@ -773,12 +773,16 @@ section:nth-child(odd) .animate.scroll{
     width: 105%;
 }
 
+
+/*Comments===Animate Switch (to toggle animate sections on scroll feature)*/
+/*
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll{
     transition-delay: calc(0.3s * var(--i));
     width: 0;
 }
+*/
 
 /*Responsive Design BREAKPOINTS*/
 
