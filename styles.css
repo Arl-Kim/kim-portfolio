@@ -140,6 +140,10 @@ section{
     padding: 0 9%;
 }
 
+.intro-image{
+    display: none;
+}
+
 .home-content{
     max-width: 60rem;
 }
@@ -792,6 +796,11 @@ section:nth-child(odd) .animate.scroll{
     html{
         font-size: 55%;
     }
+
+    .home{
+        background: url("/images/res_home_portrait.png") no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 991px){
@@ -804,6 +813,8 @@ section:nth-child(odd) .animate.scroll{
     }
 
     .home{
+        background: url("/images/res1_home_portrait.png") no-repeat;
+        background-size: cover;
         padding: 0 4%;
     }
 
@@ -851,6 +862,32 @@ section:nth-child(odd) .animate.scroll{
 
     .theme-toggler span{
         font-size: 12px;
+    }
+
+    .home{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-content span.animate{
+        display: none;
+    }
+
+    .intro-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro-image img{
+        width: 300px;
+        height: 300px;
+        box-shadow: 0 0 10px var(--deco-color);
+        border-radius: 5px;
     }
 }
 
