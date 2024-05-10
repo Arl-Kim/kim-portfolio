@@ -135,7 +135,12 @@ section{
 .home{
     margin-top: 50px;
     display: grid;
+    gap: 20px;
     grid-template-columns: 3fr 1fr;
+}
+
+.home, .about{
+    min-height: 60vh;
 }
 
 .intro-image{
@@ -143,6 +148,9 @@ section{
 }
 
 .home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 60rem;
 }
 
@@ -260,8 +268,8 @@ section{
     /***Social Icons Styles***/
 
 .home-socials{
-    position: absolute;
-    bottom: 4rem;
+    position: relative;
+    margin-top: 40px;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -910,6 +918,10 @@ section:nth-child(odd) .animate.scroll{
         background: var(--bg-darkmode);
     }
 
+    p{
+        font-weight: 600;
+    }
+
     #menu_icon{
         display: block;
     }
@@ -1016,8 +1028,9 @@ section:nth-child(odd) .animate.scroll{
 }
 
 @media (max-width: 462px){
-    .home-content h1{
-        font-size: 4.2rem;
+
+    .home-content .intro-heading h1{
+       white-space: nowrap;
     }
 
     .education{
@@ -1026,15 +1039,15 @@ section:nth-child(odd) .animate.scroll{
 
     .recent-projects-grid .project-description{
         gap: 5px;
-      }
+    }
 
-      .recent-projects-grid .project-description p{
+        .recent-projects-grid .project-description p{
         margin: 10px;
-      }
-    
-      .project-description .cta-buttons{
+    }
+
+        .project-description .cta-buttons{
         gap: 20px;
-      }
+    }
 
     .contact form .input-box .input-field{
         width: 100%;
@@ -1050,13 +1063,17 @@ section:nth-child(odd) .animate.scroll{
     }
 }
 
+@media (max-width: 404px){
+    .home-content .intro-heading h1{
+        white-space: wrap;
+        font-size: 4.5rem;
+     }
+ 
+}
+
 @media (max-width: 371px){
     .home{
         justify-content: center;
-    }
-
-    .home-content h1{
-        font-size: 4rem;
     }
 
     .recent-projects-grid .project-description p{
