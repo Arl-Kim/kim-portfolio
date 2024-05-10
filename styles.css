@@ -893,6 +893,15 @@ section:nth-child(odd) .animate.scroll{
         padding: 0 4%;
     }
 
+    
+      .recent-projects-grid .project-description{
+        gap: 10px;
+      }
+    
+      .project-description .cta-buttons{
+        gap: 50px;
+      }
+
     .footer{
         padding: 2rem 4%;
     }
@@ -971,6 +980,13 @@ section:nth-child(odd) .animate.scroll{
         box-shadow: 0 0 10px var(--deco-color);
         border-radius: 5px;
     }
+
+    .rp-grid-area {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0 30px;
+      }
 }
 
 
