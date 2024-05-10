@@ -615,13 +615,18 @@ span{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 20px;
-    margin: 0 50px;
+    margin: 20px;
+  }
+
+  .recent-projects-grid{
+    border: 0.2rem solid var(--deco-color);
+    border-radius: 5px;
   }
   
   .recent-project-item {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px #0071bc;
     cursor: pointer;
     transition: all 500ms ease-in-out;
@@ -656,33 +661,29 @@ span{
     opacity: 1;
   }
   
-  .built-projects-grid{
-    box-shadow: 0 0 5px #0071bc;
-    border-radius: 5px;
-  }
-  
-  .built-projects-grid .project-description{
+  .recent-projects-grid .project-description{
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   
-  .built-projects-grid .project-description p{
-    color: var(--deco-color);
+  .recent-projects-grid .project-description p{
+    color: var(--text-color);
     text-align: center;
-    font-size: 16px;
-    line-height: 1.2;
-    margin-top: 20px;
-  }
-  
-  .project-description .proj-desc-btns{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px;
   }
 
+  .project-description .cta-buttons{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 20px;
+}
 
 /*Contact Section Styles*/
 
