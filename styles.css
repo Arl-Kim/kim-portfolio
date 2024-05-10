@@ -133,11 +133,9 @@ section{
 }
 
 .home{
-    background: url("images/home_portrait.png") no-repeat center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 0 9%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .intro-image{
@@ -304,6 +302,17 @@ section{
 
 .home-socials a:hover::before{
     width: 100%;
+}
+
+.home-imgHover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-imgHover img{
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -850,10 +859,6 @@ section:nth-child(odd) .animate.scroll{
     background: var(--second-bg-color);
 }
 
-.education .education-box .animate.scroll{
-    width: 105%;
-}
-
 
 /*Comments===Animate Switch (to toggle animate sections on scroll feature)*/
 /*
@@ -871,11 +876,6 @@ section:nth-child(odd) .animate.scroll{
     html{
         font-size: 55%;
     }
-
-    .home{
-        background: url("/images/res_home_portrait.png") no-repeat;
-        background-size: cover;
-    }
 }
 
 @media (max-width: 991px){
@@ -888,19 +888,17 @@ section:nth-child(odd) .animate.scroll{
     }
 
     .home{
-        background: url("/images/res1_home_portrait.png") no-repeat;
-        background-size: cover;
         padding: 0 4%;
     }
 
     
-      .recent-projects-grid .project-description{
-        gap: 10px;
-      }
-    
-      .project-description .cta-buttons{
-        gap: 50px;
-      }
+    .recent-projects-grid .project-description{
+    gap: 10px;
+    }
+
+    .project-description .cta-buttons{
+    gap: 50px;
+    }
 
     .footer{
         padding: 2rem 4%;
@@ -949,7 +947,6 @@ section:nth-child(odd) .animate.scroll{
     }
 
     .home{
-        background-image: none;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -965,6 +962,10 @@ section:nth-child(odd) .animate.scroll{
     }
 
     .home-content span.animate{
+        display: none;
+    }
+
+    .home-imgHover{
         display: none;
     }
 
