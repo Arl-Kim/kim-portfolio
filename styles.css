@@ -319,8 +319,8 @@ section{
 }
 
 .home-imgHover img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 600px;
 }
 
 
@@ -989,9 +989,7 @@ section:nth-child(odd) .animate.scroll{
 
     .intro-image img{
         width: 300px;
-        height: 300px;
-        box-shadow: 0 0 10px var(--deco-color);
-        border-radius: 5px;
+        height: 600px;
     }
 
     .rp-grid-area {
