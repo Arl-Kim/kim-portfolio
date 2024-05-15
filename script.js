@@ -1,3 +1,10 @@
+/*
+    *@author Allan Kimutai Tum
+ 
+    *If you cloned this repository and you have just started your JS journey, I left some comments to guide you through. Happy Coding!
+ 
+ */
+
 "use strict";
 
 //Dark Theme To Light Theme && Vice Versa
@@ -10,6 +17,26 @@ themeToggler.addEventListener("click", () => {
     themeToggler.querySelector("span:nth-child(1)").classList.toggle("active");
     themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
 })
+
+// Define the array of headings to rotate
+const headings = ["Software Engineer, Nairobi", "Full-Stack Developer"];
+
+// Function to rotate the headings
+function rotateHeadings() {
+    const headingElement = document.querySelector('.animated-text h3');
+    let index = 0;
+
+    // Set an interval to change the heading text
+    setInterval(() => {
+        // Change the heading text to the next item in the array
+        headingElement.textContent = headings[index];
+        
+        // Increment index or reset to 0 if it reaches the end of the array
+        index = (index + 1) % headings.length;
+    }, 7000); 
+}
+
+window.onload = rotateHeadings;
 
 
 //Toggle Icon Navigation Bar
