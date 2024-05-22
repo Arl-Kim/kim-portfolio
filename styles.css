@@ -135,7 +135,7 @@ section{
 .home{
     margin-top: 50px;
     display: grid;
-    gap: 20px;
+    gap: 40px;
     grid-template-columns: 3fr 1fr;
 }
 
@@ -319,8 +319,8 @@ section{
 }
 
 .home-imgHover img{
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
 }
 
 
@@ -959,6 +959,10 @@ section:nth-child(odd) .animate.scroll{
         padding: 0 4%;
     }
 
+    .home-imgHover img{
+        width: 320px;
+        height: 320px;
+    }
     
     .recent-projects-grid .project-description{
     gap: 10px;
@@ -1049,7 +1053,8 @@ section:nth-child(odd) .animate.scroll{
 
     .intro-image img{
         width: 300px;
-        height: 600px;
+        height: 300px;
+        margin-top: 50px;
     }
 
     .rp-grid-area {
