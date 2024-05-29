@@ -760,6 +760,20 @@ span{
     align-items: center;
   }
 
+  .recent-projects-grid .project-description .tech-stack .technology{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recent-projects-grid .project-description .tech-stack .technology .tech-text p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+  }
+
   .recent-projects-grid .project-description .cta-buttons{
     position: relative;
     display: flex;
