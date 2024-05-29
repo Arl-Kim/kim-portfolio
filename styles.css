@@ -752,7 +752,15 @@ span{
     margin: 20px;
   }
 
-  .project-description .cta-buttons{
+  .recent-projects-grid .project-description .tech-stack{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recent-projects-grid .project-description .cta-buttons{
     position: relative;
     display: flex;
     width: 100%;
