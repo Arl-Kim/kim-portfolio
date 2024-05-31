@@ -755,7 +755,7 @@ span{
   .recent-projects-grid .project-description .tech-stack{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
   }
@@ -765,6 +765,11 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
+    width: 30px;
+    height: 30px;
   }
 
   .recent-projects-grid .project-description .tech-stack .technology .tech-text p{
@@ -1085,6 +1090,16 @@ section:nth-child(odd) .animate.scroll{
         gap: 20px;
         margin: 0 30px;
       }
+
+      .recent-projects-grid .project-description .tech-stack{
+        gap: 40px;
+        margin-bottom: 20px;
+      }
+
+      .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
+        width: 50px;
+        height: 50px;
+      }
 }
 
 
@@ -1126,9 +1141,19 @@ section:nth-child(odd) .animate.scroll{
         gap: 5px;
     }
 
-        .recent-projects-grid .project-description p{
+    .recent-projects-grid .project-description p{
         margin: 10px;
     }
+
+    .recent-projects-grid .project-description .tech-stack{
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
+        width: 30px;
+        height: 30px;
+      }
 
         .project-description .cta-buttons{
         gap: 20px;
