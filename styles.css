@@ -1091,7 +1091,47 @@ span{
     align-items: center;
     margin: 40px 50px 0 50px;
   }
+   
+  .case-study-tech-stack{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px var(--deco-color);
+    border-radius: 10px;
+  }
   
+  .case-study-tech-stack .tech-stack-cards{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .case-study-tech-stack .tech-stack-cards .tech-stack-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px var(--deco-color);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .case-study-tech-stack .tech-stack-cards .tech-stack-card .tech-image img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .case-study-cta{
+    margin-top: 70px;
+  }
 
 /*Footer Section Styles*/
 
