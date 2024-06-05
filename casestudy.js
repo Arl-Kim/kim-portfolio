@@ -3,6 +3,7 @@ const projectData = [
       id: 'moocourses',
       title: 'Transfrontières MooCourses Project',
       industry: 'Education',
+      industryIcon: 'school',
       shortDescription: 'Transfrontières\' online learning platform with customised EdTech tools through which learners and tutors interact and share knowledge.',
       image: '/images/moocourses_proj_long.gif',
       duration: '3 Months',
@@ -50,6 +51,7 @@ const projectData = [
         id: 'raasis',
         title: 'Ra\'Asis Web App: Connecting Clients with Services',
         industry: 'Software Development',
+        industryIcon: 'sdk',
         shortDescription: 'Developing a dynamic React web application to link Ra\'Asis clients directly with services and development teams.',
         image: '/images/raasis_proj_long.gif',
         duration: '3 Months',
@@ -98,6 +100,7 @@ const projectData = [
         id: 'oaksafrica',
         title: 'The Oaks Africa Foundation Project',
         industry: 'Non-Profit',
+        industryIcon: 'volunteer_activism',
         shortDescription: 'An online platform for Oaks Africa Foundation to provide information about their mission, vision and community development projects and initiatives. It facilitates a seamless interface to run OAF scholarship and sponsorship programs online.',
         image: '/images/oaksafrica_proj_long.gif',
         duration: '2 Months',
@@ -148,6 +151,7 @@ const projectData = [
         id: 'transfrontieres',
         title: 'Transfrontières Agencies Website',
         industry: 'Multi-Service',
+        industryIcon: 'link',
         shortDescription: 'A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events.',
         image: '/images/transfro_proj_long.gif',
         duration: '2 Months',
@@ -211,6 +215,7 @@ const projectData = [
       document.getElementById('case_study_short_description').textContent = project.shortDescription;
       document.getElementById('case_study_image').src = project.image;
       
+      document.getElementById('material_symbol').textContent = project.industryIcon;
       document.getElementById('case_industry').textContent = project.industry;
       document.getElementById('case_study_duration').textContent = project.duration;
       document.getElementById('case_study_launched').textContent = project.launched;
