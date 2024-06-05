@@ -911,6 +911,50 @@ span{
     border-radius: 10px;
   }
 
+  .case-study-overview{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .case-study-overview .case-study-cards{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .case-study-overview .case-study-cards .case-study-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px var(--deco-color);
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .case-study-overview .laptop-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .case-study-overview .laptop-image-section img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 
 /*Footer Section Styles*/
 
