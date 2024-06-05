@@ -942,6 +942,10 @@ span{
     height: 250px;
   }
 
+  .case-study-overview .case-study-cards .case-study-card .reason-icon i{
+    font-size: 70px;
+  }
+
   .case-study-overview .laptop-image-section{
     display: flex;
     justify-content: center;
@@ -953,6 +957,42 @@ span{
   .case-study-overview .laptop-image-section img{
     max-width: 100%;
     max-height: 100%;
+  }
+
+  .case-study-about,
+  .case-study-features{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .case-study-features{
+    margin-top: 70px;
+  }
+  
+  .case-study-features ul{
+    background: var(--second-bg-color);
+    border-radius: 10px;
+    padding: 20px 100px;
+    list-style: none;
+  }
+  
+  .case-study-features ul li{
+    color: var(--text-color);
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  
+  .case-study-features ul li i{
+    color: var(--deco-color);
+    position: relative;
+    right: 5px;
+    top: 7px;
+    font-size: 30px;
   }
 
 
