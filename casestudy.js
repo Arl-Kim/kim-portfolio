@@ -226,7 +226,7 @@ const projectData = [
       featuresList.innerHTML = '';
       project.features.forEach(feature => {
         const listItem = document.createElement('li');
-        listItem.textContent = feature;
+        listItem.innerHTML = "<i class='bx bx-list-check'></i>" + feature;
         featuresList.appendChild(listItem);
       });
   
