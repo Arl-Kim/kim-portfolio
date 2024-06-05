@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp" rel="stylesheet">
+    <link rel='stylesheet' href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!---Header Section--->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><span id="logo_left">Kim</span><span id="logo_right">.dev</span><span class="animate" style="--i:1"></span></a>
+        </div>
+        <i class="bx bx-menu" id="menu_icon"><span class="animate" style="--i:2"></span></i>
+        <nav class="main-nav">
+            <a href="index.html#home" class="active">Home</a>
+            <a href="index.html#about">About Me</a>
+            <a href="index.html#education">My Journey</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#projects">Projects</a>
+
+            <span class="animate" style="--i:2"></span>
+        </nav>
+        <div class="theme-toggler">
+            <span class="bx bxs-sun"></span>
+            <span class="bx bxs-moon active"></span>
+        </div>
+    </header>
+    <!---Header Section Ends--->
+
+    <!-- Introduction Section -->
+    <div class="case-study-intro about-introduction">
+        <div class="case-intro-left about-intro-left hire-dev-left">
+            <div class='case-intro-headings'>
+                <h3 id="case_study_industry"></h3>
+                <h1 id="case_study_title"></h1>
+            </div>
+            <div class='case-intro-description'>
+                <p id="case_study_short_description"></p>
+            </div>
+        </div>
+        <div class="case-intro-right about-intro-right">
+            <div class='case-intro-image'>
+                <img src="" alt="" id="case_study_image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class='why-choose-section case-study-overview'>
+        <div class="case-study-cards why-choose-reasons">
+            <div class="reason-card" id='light_orange'>
+                <div class="reason-icon"><i class='material-symbols-sharp'>precision_manufacturing</i></div>
+                <h3>Industry</h3>
+                <h4 id="case_study_industry"></h4>
+            </div>
+            <div class="reason-card" id='light_blue'>
+                <div class="reason-icon"><i class='bx bxs-calendar'></i></div>
+                <h3>Duration</h3>
+                <h4 id="case_study_duration"></h4>
+            </div>
+            <div class="reason-card" id='light_orange'>
+                <div class="reason-icon"><i class='bx bxs-package'></i></div>
+                <h3>Launched</h3>
+                <h4 id="case_study_launched"></h4>
+            </div>
+        </div>
+        <!-- Large Image Section -->
+        <div class="laptop-image-section">
+            <img src="" alt="" id="laptop_image">
+        </div>
+    </div>
+
+    <!-- About The Project Section -->
+    <div class="case-study-about">
+        <h3>About The Project</h3>
+        <h2>Project Overview</h2>
+        <p id="project_overview"></p>
+    </div>
+
+    <!-- Project Features Section -->
+    <div class="case-study-features">
+        <h2>Key Features</h2>
+        <ul id="key_features">
+            <!-- Features will be added dynamically -->
+        </ul>
+    </div>
+
+    <!-- Process Section -->
+    <div class="case_study_process" id="process_section">
+        <div className='process-intro'>
+            <h2>Process</h2>
+        </div>
+        <div className='process-details'>
+            <div className="process-stage">
+                <h3>Planning & Analysis</h3>
+                <ul>
+                    <li><i className='bx bx-list-check'></i>Requirement Gathering</li>
+                    <li><i className='bx bx-list-check'></i>User Research</li>
+                    <li><i className='bx bx-list-check'></i>Information Architecture</li>
+                    <li><i className='bx bx-list-check'></i>Wireframing & Prototyping</li>
+                    <li><i className='bx bx-list-check'></i>Technology Stack Selection</li>
+                </ul>
+            </div>
+            <div className="process-stage">
+                <h3>Design & Development</h3>
+                <ul>
+                    <li><i className='bx bx-list-check'></i>UX/UI Design</li>
+                    <li><i className='bx bx-list-check'></i>Front-End Development</li>
+                    <li><i className='bx bx-list-check'></i>Back-End Development</li>
+                    <li><i className='bx bx-list-check'></i>API Development</li>
+                    <li><i className='bx bx-list-check'></i>Testing</li>
+                </ul>
+            </div>
+            <div className="process-stage">
+                <h3>Deployment & Maintenance</h3>
+                <ul>
+                    <li><i className='bx bx-list-check'></i>Deployment</li>
+                    <li><i className='bx bx-list-check'></i>Monitoring & Security</li>
+                    <li><i className='bx bx-list-check'></i>Continuous Improvement</li>
+                    <li><i className='bx bx-list-check'></i>Maintenance & Support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Challenges Section -->
+    <div class="case-study-challenges">
+        <h3>Challenges I Faced</h3>
+        <h2>Project Problems</h2>
+        <div id="challenges_section">
+            <!-- Challenges will be added dynamically -->
+        </div>
+        <!-- Large Image Section -->
+        <div class="mobile_image_section">
+            <img src="" alt="" id="mobile_image">
+        </div>
+    </div>
+
+    <!-- Solutions Section -->
+    <div class="case-study-solutions">
+        <h3>How I Solved The Problems</h3>
+        <h2>The Solutions</h2>
+        <div id="solutions_section">
+            <!-- Solutions will be added dynamically -->
+        </div>
+        <!-- Large Image Section -->
+        <div class="tablet-image-section">
+            <img src="" alt="" id="tablet_image">
+        </div>
+    </div>
+
+    <!-- Impact Section -->
+    <div class="case-study-impact">
+        <h3>Last Milestone</h3>
+        <h2>The Impact</h2>
+        <div id="impact_section">
+            <!-- Impact paragraphs will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Technology Stack Section -->
+    <div class="case-study-tech-stack">
+        <h2>Technology Stack</h2>
+        <p id="tech_stack_description"></p>
+        <div class="tech-stack-cards" id="tech_stack_section">
+            <!-- Technology stack will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Lead Generation Section -->
+    <div class='lead-gen-mini case-study-cta'>
+        <div class='lead-gen-mini-main'>
+            <div class='lead-gen-mini-heading'>
+                <h2>Grow Your Brand By Combining A Team Of Creative Designers, Expert Developers, Modern Technologies & Agile Development Processes</h2>
+            </div>
+            <div class='lead-gen-mini-btn'>
+                <a href='/contact'>Let's Discuss Your Next Project<i class='bx bxs-hand-right'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!---Footer Section Begins--->
+        
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by ArlKim | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!---Footer Section Ends--->
+
+    <script src="script.js"></script>
+    <script src="casestudy.js"></script>
+</body>
+</html>
