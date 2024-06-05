@@ -863,7 +863,53 @@ span{
 
 .contact form .cta-buttons.btns .btn{
     cursor: pointer;
-} 
+}
+
+/*Case Study Page Styles*/
+
+.case-study-intro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .case-study-intro .case-intro-left{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .case-study-intro .case-intro-left .case-intro-headings h3{
+    margin-bottom: 20px;
+  }
+  
+  .case-study-intro .case-intro-left .case-intro-headings h1{
+    color: var(--deco-color);
+    margin-bottom: 20px;
+  }
+  
+  .case-study-intro .case-intro-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .case-study-intro .case-intro-right .case-intro-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .case-study-intro .case-intro-right .case-intro-image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
 
 
 /*Footer Section Styles*/
