@@ -211,7 +211,7 @@ const projectData = [
       document.getElementById('case_study_short_description').textContent = project.shortDescription;
       document.getElementById('case_study_image').src = project.image;
       
-      document.getElementById('case_study_industry').textContent = project.industry;
+      document.getElementById('case_industry').textContent = project.industry;
       document.getElementById('case_study_duration').textContent = project.duration;
       document.getElementById('case_study_launched').textContent = project.launched;
   
