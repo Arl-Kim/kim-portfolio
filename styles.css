@@ -995,6 +995,74 @@ span{
     font-size: 30px;
   }
 
+  .case-study-process{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .case-study-process .process-details{
+    background: var(--deco-color);
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px var(--deco-color);
+    border-radius: 10px;
+  }
+  
+  .case-study-process .process-details .process-stage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .case-study-process .process-details .process-stage h3{
+    color: var(--bg-darkmode);
+    text-align: center;
+  }
+  
+  .case-study-process .process-details .process-stage ul{
+    list-style: none;
+  }
+  
+  .case-study-process .process-details .process-stage ul li{
+    margin-bottom: 15px;
+  }
+  
+  .case-study-process .process-details .process-stage ul li i{
+    color: var(--bg-darkmode);
+    font-size: 30px;
+    position: relative;
+    top: 7px;
+  }
+  
+  .case-study-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px 0 50px;
+  }
+  
+  .case-study-challenges .mobile-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .case-study-challenges .mobile-image-section img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
 
 /*Footer Section Styles*/
 
