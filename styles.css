@@ -1324,7 +1324,8 @@ section:nth-child(odd) .animate.scroll{
 
     .case-study-about,
     .case-study-features,
-    .case-study-process{
+    .case-study-process,
+    .case-study-challenges{
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -1472,15 +1473,17 @@ section:nth-child(odd) .animate.scroll{
 
     .case-study-about,
     .case-study-features,
-    .case-study-process{
+    .case-study-process,
+    .case-study-challenges{
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .case-study-features,
-    .case-study-process{
+    .case-study-process,
+    .case-study-challenges{
         margin-top: 50px;
-      }
+    }
       
     .case-study-features ul{
         padding: 20px 170px;
@@ -1547,7 +1550,8 @@ section:nth-child(odd) .animate.scroll{
 
     .case-study-about,
     .case-study-features,
-    .case-study-process{
+    .case-study-process,
+    .case-study-challenges{
         margin-left: 10px;
         margin-right: 10px;
     }
