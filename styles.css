@@ -942,7 +942,7 @@ span{
     height: 250px;
   }
 
-  .case-study-overview .case-study-cards .case-study-card .reason-icon i{
+  .case-study-overview .case-study-cards .case-study-card .case-study-icon i{
     font-size: 70px;
   }
 
@@ -1533,6 +1533,11 @@ section:nth-child(odd) .animate.scroll{
     .home-content .intro-heading h1{
         white-space: wrap;
         font-size: 4.5rem;
+    }
+
+    .case-study-overview .case-study-cards .case-study-card{
+        width: 220px;
+        height: 220px;
     }
  
 }
