@@ -8,6 +8,7 @@ const projectData = [
       image: '/images/moocourses_proj_long.gif',
       duration: '3 Months',
       launched: 'April 2024',
+      laptopImage: '/images/moocourses_laptop.gif',
       projectOverview: 'The Transfrontières MooCourses Project aimed to revolutionize online learning by providing a robust platform with customized EdTech tools. It facilitates interaction and knowledge sharing among learners and tutors, making the Education and Training service at Transfrontières Agencies Limited more accessible and effective. Through the platform, clients can now learn French Language for Professional Purposes, ICT, Music, and Research. I built a highly scalable system to allow for additional education and training modules which are due to be added over the next few months. MooCourses has been highly rated by users for its comprehensive approach to online learning and its innovative features.',
       features: [
         'Custom EdTech Tools',
@@ -36,6 +37,8 @@ const projectData = [
           description: 'I integrated interactive and gamified elements such as quizzes, badges, and leaderboards to enhance user engagement and make learning more enjoyable.'
         }
       ],
+      mobileImage: '/images/moocourses_mobile.png',
+      tabletImage: '/images/moocourses_tablet.png',
       impact: [
         'The MooCourses platform has significantly improved the accessibility of education and training for individual students and businesses across Kenya and other parts of the world, allowing them to learn from anywhere. The real-time collaboration features have enabled more effective tutor-student interactions, thereby enhancing the overall learning experience. Including highly interactive modules in the platform has significantly increased user engagement, with more students completing their courses. Through this project Transfrontieres Agencies Limited experienced a massive transformation in how they offer their Education and Training service to their clients. It perfectly aligned with their objective of full service digitalization.'
       ],
@@ -56,6 +59,7 @@ const projectData = [
         image: '/images/raasis_proj_long.gif',
         duration: '3 Months',
         launched: 'May 2024',
+        laptopImage: '/images/raasis_laptop.gif',
         projectOverview: 'This project involved the development of a dynamic platform designed to bridge the gap between Ra\'Asis Software clients and their services and development teams. The web application offers an intuitive and efficient way for the startup to showcase their services, products and portfolio, track their progress, and interact directtly with their clients. The application ensures a seamless user experience, facilitating effective communication and efficient project management.',
         features: [
           'Interactive & User-Friendly Interface',
@@ -83,6 +87,8 @@ const projectData = [
             description: 'Developed interactive features and real-time updates to keep users engaged and informed throughout their project lifecycle.'
           }
         ],
+        mobileImage: '/images/raasis_mobile.png',
+        tabletImage: '/images/raasis_tablet.png',
         impact: [
           'The developed application has enhanced client satisfaction through direct and efficient communication with development teams, leading to better project outcomes. Ra\'Asis Software now have improved project management and tracking capabilities, allowing clients and project managers alike to monitor progress and make informed decisions in real-time. The scalable nature of the application supports future growth, ensuring the platform remains robust and reliable as the service scope, user base and overall traffic expands.'
         ],
@@ -103,6 +109,7 @@ const projectData = [
         image: '/images/oaksafrica_proj_long.gif',
         duration: '2 Months',
         launched: 'August 2023',
+        laptopImage: '/images/oaksafrica_laptop.gif',
         projectOverview: 'The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation\'s objectives. Through the platform, interested parties can get information about the foundation\'s agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the development of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results.',
         features: [
           'Responsive Design',
@@ -132,6 +139,8 @@ const projectData = [
             description: 'I also developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
           }
         ],
+        mobileImage: '/images/oaksafrica_mobile.png',
+        tabletImage: '/images/oaksafrica_tablet.png',
         impact: [
           'The website has significantly increased the foundation’s online visibility, leading to higher traffic and increased engagement with the community. The interactive scholarship and sponsorship applications, secure online donation payments and constant communication channels through newsletters and website adverts have simplified the process for users and elevated their experiences. The results are evident in more scholarship applications and donations as compared to when the process was only handled offline. The user-friendly CMS has empowered the foundation’s team to manage and update content efficiently without needing frequent technical support.'
         ],
@@ -154,6 +163,7 @@ const projectData = [
         image: '/images/transfro_proj_long.gif',
         duration: '2 Months',
         launched: 'July 2023',
+        laptopImage: '/images/transfro_laptop.gif',
         projectOverview: 'The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links.',
         features: [
           'User-friendly Interface',
@@ -190,6 +200,8 @@ const projectData = [
             description: 'I implemented secure links and robust authentication mechanisms to protect user data and ensure safe access to all the available digital solutions.'
           }
         ],
+        mobileImage: '/images/transfro_mobile.png',
+        tabletImage: '/images/transfro_tablet.png',
         impact: [
           'The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières\' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.'
         ],
