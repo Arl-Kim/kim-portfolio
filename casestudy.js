@@ -41,10 +41,10 @@ const projectData = [
       ],
       techStackDescription: 'For this project, I utilized a robust technology stack. HTML5 and CSS3 were used for front-end development to create a responsive and user-friendly interface. PHP was employed for back-end development, handling server-side logic and operations. MySQL was chosen as the database management system to efficiently store and manage user and course data.',
       techStack: [
-        { name: 'HTML5', logo: '/assets/html.svg' },
-        { name: 'CSS3', logo: '/assets/css.svg' },
-        { name: 'PHP', logo: '/assets/php.svg' },
-        { name: 'MySQL', logo: '/assets/mysql_server.svg' }
+        { name: 'HTML5', logo: '/images/html.svg' },
+        { name: 'CSS3', logo: '/images/css.svg' },
+        { name: 'PHP', logo: '/images/php.svg' },
+        { name: 'MySQL', logo: '/images/mysql_server.svg' }
       ]
     },
     {
@@ -90,10 +90,10 @@ const projectData = [
         ],
         techStackDescription: 'The Ra\'Asis Web App leverages a modern technology stack to deliver a seamless and efficient user experience. Utilizing React for the frontend and Node.js for the backend, the platform is designed to be highly responsive and scalable, meeting the demands of a growing user base.',
         techStack: [
-          { name: 'React', logo: '/assets/react.svg' },
-          { name: 'Node.js', logo: '/assets/nodejs.svg' },
-          { name: 'JavaScript', logo: '/assets/javascript.svg' },
-          { name: 'CSS', logo: '/assets/css.svg' }
+          { name: 'React', logo: '/images/react.svg' },
+          { name: 'Node.js', logo: '/images/nodejs.svg' },
+          { name: 'JavaScript', logo: '/images/javascript.svg' },
+          { name: 'CSS', logo: '/images/css.svg' }
         ]
       },
       {
@@ -139,12 +139,12 @@ const projectData = [
         ],
         techStackDescription: 'For this OAF project, I utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. The front-end was built using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. The back-end was powered by WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. IntaSend API was integrated for secure and efficient payment processing in online donations and sponsorship funding.',
         techStack: [
-          { name: 'WordPress', logo: '/assets/wordpress.svg' },
-          { name: 'HTML', logo: '/assets/html.svg' },
-          { name: 'CSS', logo: '/assets/css.svg' },
-          { name: 'JavaScript', logo: '/assets/javascript.svg' },
-          { name: 'PHP', logo: '/assets/php.svg' },
-          { name: 'MySQL', logo: '/assets/mysql_server.svg' }
+          { name: 'WordPress', logo: '/images/wordpress.svg' },
+          { name: 'HTML', logo: '/images/html.svg' },
+          { name: 'CSS', logo: '/images/css.svg' },
+          { name: 'JavaScript', logo: '/images/javascript.svg' },
+          { name: 'PHP', logo: '/images/php.svg' },
+          { name: 'MySQL', logo: '/images/mysql_server.svg' }
         ]
       },
       {
@@ -197,12 +197,12 @@ const projectData = [
         ],
         techStackDescription: 'I used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. PHP was utilized for back-end processes, and MySQL for database management, ensuring a robust, scalable, and secure platform.',
         techStack: [
-          { name: 'WordPress', logo: '/assets/wordpress.svg' },
-          { name: 'HTML5', logo: '/assets/html.svg'},
-          {name: 'CSS3', logo: '/assets/css.svg'},
-          {name: 'JavaScript', logo: '/assets/javascript.svg'},
-          {name: 'PHP', logo: '/assets/php.svg'},
-          {name: 'MySQL', logo: '/assets/mysql_server.svg'}
+          { name: 'WordPress', logo: '/images/wordpress.svg' },
+          { name: 'HTML5', logo: '/images/html.svg'},
+          {name: 'CSS3', logo: '/images/css.svg'},
+          {name: 'JavaScript', logo: '/images/javascript.svg'},
+          {name: 'PHP', logo: '/images/php.svg'},
+          {name: 'MySQL', logo: '/images/mysql_server.svg'}
         ]
       }
   ];
