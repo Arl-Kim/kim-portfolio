@@ -42,7 +42,7 @@ const projectData = [
       techStackDescription: 'For this project, I utilized a robust technology stack. HTML5 and CSS3 were used for front-end development to create a responsive and user-friendly interface. PHP was employed for back-end development, handling server-side logic and operations. MySQL was chosen as the database management system to efficiently store and manage user and course data.',
       techStack: [
         { name: 'HTML5', logo: '/images/html.svg' },
-        { name: 'CSS3', logo: '/images/css.svg' },
+        { name: 'CSS', logo: '/images/css.svg' },
         { name: 'PHP', logo: '/images/php.svg' },
         { name: 'MySQL', logo: '/images/mysql_server.svg' }
       ]
@@ -107,8 +107,8 @@ const projectData = [
         features: [
           'Responsive Design',
           'CMS For Easy Content Updates',
-          'Dynamic Scholarship Application Forms',
-          'Dynamic Sponsorship Application Forms',
+          'Scholarship Application Forms',
+          'Sponsorship Application Forms',
           'Secure Donation & Sponsorship Payment Integrations',
           'Newsletter Subscription & Auto-Updates',
         ],
@@ -129,16 +129,16 @@ const projectData = [
           },
           {
             heading: 'Interactive Features',
-            description: 'The team also developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
+            description: 'I also developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
           }
         ],
         impact: [
           'The website has significantly increased the foundation’s online visibility, leading to higher traffic and increased engagement with the community. The interactive scholarship and sponsorship applications, secure online donation payments and constant communication channels through newsletters and website adverts have simplified the process for users and elevated their experiences. The results are evident in more scholarship applications and donations as compared to when the process was only handled offline. The user-friendly CMS has empowered the foundation’s team to manage and update content efficiently without needing frequent technical support.'
         ],
-        techStackDescription: 'For this OAF project, I utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. The front-end was built using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. The back-end was powered by WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. IntaSend API was integrated for secure and efficient payment processing in online donations and sponsorship funding.',
+        techStackDescription: 'For this project, I utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. I built the front-end using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. For the back-end I utilized WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. I integrated IntaSend API for secure and efficient payment processing in online donations and sponsorship funding.',
         techStack: [
           { name: 'WordPress', logo: '/images/wordpress.svg' },
-          { name: 'HTML', logo: '/images/html.svg' },
+          { name: 'HTML5', logo: '/images/html.svg' },
           { name: 'CSS', logo: '/images/css.svg' },
           { name: 'JavaScript', logo: '/images/javascript.svg' },
           { name: 'PHP', logo: '/images/php.svg' },
