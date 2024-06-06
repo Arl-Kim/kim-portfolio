@@ -1049,6 +1049,11 @@ span{
     align-items: center;
     margin: 70px 50px 0 50px;
   }
+
+  .case-study-challenges .challenge-text h3,
+  .case-study-challenges .challenge-text p{
+    margin-bottom: 5px;
+  }
   
   .case-study-challenges .mobile-image-section{
     display: flex;
@@ -1069,6 +1074,11 @@ span{
     justify-content: center;
     align-items: center;
     margin: 0 50px;
+  }
+
+  .case-study-solutions .solution-text h3,
+  .case-study-solutions .solution-text p{
+    margin-bottom: 5px;
   }
   
   .case-study-solutions .tablet-image-section{
