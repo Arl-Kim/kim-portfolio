@@ -1326,7 +1326,8 @@ section:nth-child(odd) .animate.scroll{
     .case-study-features,
     .case-study-process,
     .case-study-challenges,
-    .case-study-solutions{
+    .case-study-solutions,
+    .case-study-impact{
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -1476,7 +1477,8 @@ section:nth-child(odd) .animate.scroll{
     .case-study-features,
     .case-study-process,
     .case-study-challenges,
-    .case-study-solutions{
+    .case-study-solutions,
+    .case-study-impact{
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -1554,7 +1556,8 @@ section:nth-child(odd) .animate.scroll{
     .case-study-features,
     .case-study-process,
     .case-study-challenges,
-    .case-study-solutions{
+    .case-study-solutions,
+    .case-study-impact{
         margin-left: 10px;
         margin-right: 10px;
     }
