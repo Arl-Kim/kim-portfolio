@@ -254,8 +254,8 @@ const projectData = [
       techStackCards.innerHTML = '';
       project.techStack.forEach(tech => {
         const techCard = document.createElement('div');
-        techCard.classList.add('technology');
-        techCard.innerHTML = `<div class="tech-image"><img src="${tech.logo}" alt="${tech.name}"></div><div class="tech-text"><p>${tech.name}</p></div>`;
+        techCard.classList.add('tech-stack-card');
+        techCard.innerHTML = `<div class="tech-image"><img src="${tech.logo}" alt="${tech.name}"></div><div class="tech-text"><h4>${tech.name}</h4></div>`;
         techStackCards.appendChild(techCard);
       });
     } else {
