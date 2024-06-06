@@ -1466,7 +1466,21 @@ section:nth-child(odd) .animate.scroll{
 
     .rp-grid-area {
         margin: 0 10px;
-      }
+    }
+
+    .case-study-intro{
+        margin-top: 100px;
+    }
+
+    .case-intro-left{
+        margin-bottom: 5px;
+    }
+
+    .case-intro-left, 
+    .case-intro-right{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 462px){
@@ -1492,12 +1506,12 @@ section:nth-child(odd) .animate.scroll{
         margin-bottom: 20px;
       }
 
-      .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
-        width: 30px;
-        height: 30px;
-      }
+    .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
+    width: 30px;
+    height: 30px;
+    }
 
-        .project-description .cta-buttons{
+    .project-description .cta-buttons{
         gap: 20px;
     }
 
