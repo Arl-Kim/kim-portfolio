@@ -49,19 +49,19 @@ const projectData = [
     },
     {
         id: 'raasis',
-        title: 'Ra\'Asis Web App: Connecting Clients with Services',
-        industry: 'Software Development',
-        industryIcon: 'sdk',
-        shortDescription: 'Developing a dynamic React web application to link Ra\'Asis clients directly with services and development teams.',
+        title: 'The Ra\'Asis Software Web App',
+        industry: 'Software Engineering',
+        industryIcon: 'developer_board',
+        shortDescription: 'A dynamic web application through which Ra\'Asis Software\'s clients can directly access Ra\'Asis services and source offshore development teams for their projects.',
         image: '/images/raasis_proj_long.gif',
         duration: '3 Months',
         launched: 'May 2024',
-        projectOverview: 'Ra\'Asis Web App is a dynamic platform designed to bridge the gap between Ra\'Asis clients and their services and development teams. Built with React, this web application offers an intuitive and efficient way for clients to access services, track progress, and interact with development teams. The application ensures a seamless user experience, facilitating effective communication and project management.',
+        projectOverview: 'This project involved the development of a dynamic platform designed to bridge the gap between Ra\'Asis Software clients and their services and development teams. The web application offers an intuitive and efficient way for the startup to showcase their services, products and portfolio, track their progress, and interact directtly with their clients. The application ensures a seamless user experience, facilitating effective communication and efficient project management.',
         features: [
-          'User-friendly interface',
-          'Real-time updates',
-          'Direct communication with development teams',
-          'Service tracking and management'
+          'Interactive & User-Friendly Interface',
+          'Dynamic Forms',
+          'Direct Communication With Development Teams',
+          'Service Tracking & Client Management'
         ],
         challenges: [
           {
@@ -70,7 +70,7 @@ const projectData = [
           },
           {
             heading: 'User Engagement',
-            description: 'Creating an engaging user experience that encourages clients to actively use the platform and communicate with development teams.'
+            description: 'Creating an engaging user experience that encourages clients to actively use the platform and select Ra\'Asis development teams.'
           }
         ],
         solutions: [
@@ -84,14 +84,12 @@ const projectData = [
           }
         ],
         impact: [
-          'Enhanced client satisfaction through direct and efficient communication with development teams, leading to better project outcomes.',
-          'Improved project management and tracking capabilities, allowing clients to monitor progress and make informed decisions in real-time.',
-          'Scalable solution that supports future growth, ensuring the platform remains robust and reliable as the user base expands.'
+          'The developed application has enhanced client satisfaction through direct and efficient communication with development teams, leading to better project outcomes. Ra\'Asis Software now have improved project management and tracking capabilities, allowing clients and project managers alike to monitor progress and make informed decisions in real-time. The scalable nature of the application supports future growth, ensuring the platform remains robust and reliable as the service scope, user base and overall traffic expands.'
         ],
-        techStackDescription: 'The Ra\'Asis Web App leverages a modern technology stack to deliver a seamless and efficient user experience. Utilizing React for the frontend and Node.js for the backend, the platform is designed to be highly responsive and scalable, meeting the demands of a growing user base.',
+        techStackDescription: 'I leveraged a modern technology stack to deliver a seamless and efficient user experience. Utilizing React, Vanilla JS and CSS for the frontend and Node.js for the backend, the platform is designed to be highly responsive and scalable, meeting the demands of a growing service scope, portfolio and user base.',
         techStack: [
           { name: 'React', logo: '/images/react.svg' },
-          { name: 'Node.js', logo: '/images/nodejs.svg' },
+          { name: 'Node.js', logo: '/images/node.svg' },
           { name: 'JavaScript', logo: '/images/javascript.svg' },
           { name: 'CSS', logo: '/images/css.svg' }
         ]
