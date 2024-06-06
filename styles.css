@@ -1408,15 +1408,40 @@ section:nth-child(odd) .animate.scroll{
         margin: 0 30px;
       }
 
-      .recent-projects-grid .project-description .tech-stack{
-        gap: 40px;
-        margin-bottom: 20px;
-      }
+    .recent-projects-grid .project-description .tech-stack{
+    gap: 40px;
+    margin-bottom: 20px;
+    }
 
-      .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
-        width: 50px;
-        height: 50px;
-      }
+    .recent-projects-grid .project-description .tech-stack .technology .tech-image img{
+    width: 50px;
+    height: 50px;
+    }
+
+    .case-study-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 120px;
+    }
+    
+    .case-intro-left{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    }
+
+    .case-intro-left h3,
+    .case-intro-left h1,
+    .case-intro-left p{
+    text-align: center;
+    }
+    
+    .case-intro-right{
+    margin-right: 20px;
+    margin-left: 20px;
+    }
 }
 
 
