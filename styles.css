@@ -1133,6 +1133,44 @@ span{
     margin-top: 70px;
   }
 
+  .case-study-cta-main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .case-study-cta-main .case-study-cta-heading{
+    text-align: center;
+  }
+  
+  .case-study-cta-main .case-study-cta-heading h2{
+    color: var(--text-color);
+  }
+  
+  .case-study-cta-main .case-study-cta-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .case-study-cta-main .case-study-cta-btn a i{
+    font-size: 20px;
+    position: relative;
+    left: 4px;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .case-study-cta-main .case-study-cta-btn a:hover i{
+    left: 7px;
+  }
+
 /*Footer Section Styles*/
 
 footer{
