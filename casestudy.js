@@ -37,8 +37,8 @@ const projectData = [
           description: 'I integrated interactive and gamified elements such as quizzes, badges, and leaderboards to enhance user engagement and make learning more enjoyable.'
         }
       ],
-      mobileImage: '/images/moocourses_mobile.png',
-      tabletImage: '/images/moocourses_tablet.png',
+      mobileImage: '/images/moocourses_mobile.webp',
+      tabletImage: '/images/moocourses_tablet.webp',
       impact: [
         'The MooCourses platform has significantly improved the accessibility of education and training for individual students and businesses across Kenya and other parts of the world, allowing them to learn from anywhere. The real-time collaboration features have enabled more effective tutor-student interactions, thereby enhancing the overall learning experience. Including highly interactive modules in the platform has significantly increased user engagement, with more students completing their courses. Through this project Transfrontieres Agencies Limited experienced a massive transformation in how they offer their Education and Training service to their clients. It perfectly aligned with their objective of full service digitalization.'
       ],
@@ -87,8 +87,8 @@ const projectData = [
             description: 'Developed interactive features and real-time updates to keep users engaged and informed throughout their project lifecycle.'
           }
         ],
-        mobileImage: '/images/raasis_mobile.png',
-        tabletImage: '/images/raasis_tablet.png',
+        mobileImage: '/images/raasis_mobile.webp',
+        tabletImage: '/images/raasis_tablet.webp',
         impact: [
           'The developed application has enhanced client satisfaction through direct and efficient communication with development teams, leading to better project outcomes. Ra\'Asis Software now have improved project management and tracking capabilities, allowing clients and project managers alike to monitor progress and make informed decisions in real-time. The scalable nature of the application supports future growth, ensuring the platform remains robust and reliable as the service scope, user base and overall traffic expands.'
         ],
@@ -139,8 +139,8 @@ const projectData = [
             description: 'I also developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
           }
         ],
-        mobileImage: '/images/oaksafrica_mobile.png',
-        tabletImage: '/images/oaksafrica_tablet.png',
+        mobileImage: '/images/oaksafrica_mobile.webp',
+        tabletImage: '/images/oaksafrica_tablet.webp',
         impact: [
           'The website has significantly increased the foundation’s online visibility, leading to higher traffic and increased engagement with the community. The interactive scholarship and sponsorship applications, secure online donation payments and constant communication channels through newsletters and website adverts have simplified the process for users and elevated their experiences. The results are evident in more scholarship applications and donations as compared to when the process was only handled offline. The user-friendly CMS has empowered the foundation’s team to manage and update content efficiently without needing frequent technical support.'
         ],
@@ -200,8 +200,8 @@ const projectData = [
             description: 'I implemented secure links and robust authentication mechanisms to protect user data and ensure safe access to all the available digital solutions.'
           }
         ],
-        mobileImage: '/images/transfro_mobile.png',
-        tabletImage: '/images/transfro_tablet.png',
+        mobileImage: '/images/transfro_mobile.webp',
+        tabletImage: '/images/transfro_tablet.webp',
         impact: [
           'The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières\' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.'
         ],
@@ -229,6 +229,7 @@ const projectData = [
       document.getElementById('case_industry').textContent = project.industry;
       document.getElementById('case_study_duration').textContent = project.duration;
       document.getElementById('case_study_launched').textContent = project.launched;
+      document.getElementById('laptop_image').src = project.laptopImage;
   
       document.getElementById('project_overview').textContent = project.projectOverview;
   
@@ -248,6 +249,8 @@ const projectData = [
         challengeDiv.innerHTML = `<h3>${challenge.heading}</h3><p>${challenge.description}</p>`;
         challengesSection.appendChild(challengeDiv);
       });
+
+      document.getElementById('mobile_image').src = project.mobileImage;
   
       const solutionsSection = document.getElementById('solutions_section');
       solutionsSection.innerHTML = '';
@@ -257,6 +260,8 @@ const projectData = [
         solutionDiv.innerHTML = `<h3>${solution.heading}</h3><p>${solution.description}</p>`;
         solutionsSection.appendChild(solutionDiv);
       });
+
+      document.getElementById('tablet_image').src = project.tabletImage;
   
       const impactSection = document.getElementById('impact_section');
       impactSection.innerHTML = `<p>${project.impact.join('</p><p>')}</p>`;
