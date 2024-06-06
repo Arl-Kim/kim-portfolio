@@ -1507,6 +1507,25 @@ section:nth-child(odd) .animate.scroll{
     .case-study-process .process-details .process-stage ul li{
         margin-bottom: 10px;
     }
+
+    .case-study-tech-stack{
+        margin: 70px 20px 0 20px;
+        padding: 15px;
+    }
+      
+    .case-study-tech-stack .tech-stack-cards{
+        gap: 30px;
+    }
+
+    .case-study-tech-stack .tech-stack-cards .tech-stack-card{
+        width: 170px;
+        height: 170px;
+    }
+
+    .case-study-tech-stack .tech-stack-cards .tech-stack-card img{
+        width: 70px;
+        height: 70px;
+    }
 }
 
 
@@ -1572,6 +1591,14 @@ section:nth-child(odd) .animate.scroll{
 
     .case-study-process .process-details .process-stage ul li{
         margin-bottom: 5px;
+    }
+
+    .case-study-tech-stack{
+        padding: 10px;
+    }
+      
+    .case-study-tech-stack .tech-stack-cards{
+        gap: 20px;
     }
 }
 
