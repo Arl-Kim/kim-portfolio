@@ -1322,6 +1322,12 @@ section:nth-child(odd) .animate.scroll{
         margin-right: 30px;
     }
 
+    .case-study-about,
+    .case-study-features{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     .footer{
         padding: 2rem 4%;
     }
@@ -1453,6 +1459,12 @@ section:nth-child(odd) .animate.scroll{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .case-study-about,
+    .case-study-features{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 
@@ -1494,6 +1506,12 @@ section:nth-child(odd) .animate.scroll{
     }
 
     .case-study-overview{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .case-study-about,
+    .case-study-features{
         margin-left: 10px;
         margin-right: 10px;
     }
