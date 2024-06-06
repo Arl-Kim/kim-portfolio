@@ -232,6 +232,7 @@ const projectData = [
       challengesSection.innerHTML = '';
       project.challenges.forEach(challenge => {
         const challengeDiv = document.createElement('div');
+        challengeDiv.classList = 'challenge-text'
         challengeDiv.innerHTML = `<h3>${challenge.heading}</h3><p>${challenge.description}</p>`;
         challengesSection.appendChild(challengeDiv);
       });
@@ -240,6 +241,7 @@ const projectData = [
       solutionsSection.innerHTML = '';
       project.solutions.forEach(solution => {
         const solutionDiv = document.createElement('div');
+        solutionDiv.classList = 'solution-text'
         solutionDiv.innerHTML = `<h3>${solution.heading}</h3><p>${solution.description}</p>`;
         solutionsSection.appendChild(solutionDiv);
       });
