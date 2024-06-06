@@ -1465,6 +1465,14 @@ section:nth-child(odd) .animate.scroll{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .case-study-features{
+        margin-top: 50px;
+      }
+      
+    .case-study-features ul{
+        padding: 20px 170px;
+    }
 }
 
 
@@ -1514,6 +1522,10 @@ section:nth-child(odd) .animate.scroll{
     .case-study-features{
         margin-left: 10px;
         margin-right: 10px;
+    }
+      
+    .case-study-features ul{
+        padding: 20px 70px;
     }
 }
 
