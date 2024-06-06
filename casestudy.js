@@ -55,7 +55,7 @@ const projectData = [
         title: 'The Ra\'Asis Software Web App',
         industry: 'Software Engineering',
         industryIcon: 'developer_board',
-        shortDescription: 'A dynamic web application through which Ra\'Asis Software\'s clients can directly access Ra\'Asis services and source offshore development teams for their projects.',
+        shortDescription: 'A dynamic web application through which Ra\'Asis Software\'s clients can directly access Ra\'Asis services and development teams for their projects.',
         image: '/images/raasis_proj_long.gif',
         duration: '3 Months',
         launched: 'May 2024',
