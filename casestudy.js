@@ -169,7 +169,7 @@ const projectData = [
           'User-friendly Interface',
           'Online Booking System For Consultations',
           'Secure Access To Digital Solutions',
-          'Service Categories: Communications, Education & Training, ICT, Events',
+          'Live Chat Support',
           'Responsive Design For All Screen Sizes'
         ],
         challenges: [
