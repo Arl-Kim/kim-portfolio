@@ -220,6 +220,7 @@ const projectData = [
   function populateCaseStudyPage(projectId) {
     const project = projectData.find(item => item.id === projectId);
     if (project) {
+      document.getElementById('page_title').innerText = "Case Study " + "| " + project.title; 
       document.getElementById('case_study_industry').textContent = project.industry;
       document.getElementById('case_study_title').textContent = project.title;
       document.getElementById('case_study_short_description').textContent = project.shortDescription;
