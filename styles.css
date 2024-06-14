@@ -959,6 +959,15 @@ span{
     height: 250px;
   }
 
+  .case-study-overview .case-study-cards .case-study-card h3{
+    font-size: 12px;
+  }
+
+  .case-study-overview .case-study-cards .case-study-card h4{
+    font-size: 10px;
+    color: var(--text-color);
+  }
+
   .case-study-overview .case-study-cards .case-study-card .case-study-icon i{
     font-size: 70px;
   }
@@ -1067,6 +1076,10 @@ span{
     margin: 70px 50px 0 50px;
   }
 
+  .case-study-challenges h2{
+    margin-bottom: 20px;
+  }
+
   .case-study-challenges .challenge-text h3,
   .case-study-challenges .challenge-text p{
     margin-bottom: 5px;
@@ -1093,6 +1106,10 @@ span{
     margin: 0 50px;
   }
 
+  .case-study-solutions h2{
+    margin-bottom: 20px;
+  }
+
   .case-study-solutions .solution-text h3,
   .case-study-solutions .solution-text p{
     margin-bottom: 5px;
@@ -1117,6 +1134,10 @@ span{
     justify-content: center;
     align-items: center;
     margin: 40px 50px 0 50px;
+  }
+
+  .case-study-impact h2{
+    margin-bottom: 20px;
   }
    
   .case-study-tech-stack{
