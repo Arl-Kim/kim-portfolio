@@ -39,6 +39,19 @@ body{
     color: var(--text-color);
 }
 
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+h3, h4{
+    color: var(--deco-color);
+}
+
+li{
+    font-size: 11px;
+}
+
 
 /*Header Styles*/
 
@@ -876,6 +889,10 @@ span{
     margin-right: 50px;
     margin-left: 50px;
   }
+
+  .case-study-intro p{
+    font-size: 12px;
+  }
   
   .case-study-intro .case-intro-left{
     display: flex;
@@ -1284,7 +1301,7 @@ section:nth-child(odd) .animate.scroll{
 
 @media (max-width: 1200px){
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
 }
 
@@ -1543,7 +1560,7 @@ section:nth-child(odd) .animate.scroll{
 
 @media (max-width: 520px){
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .home-content h1{
@@ -1616,10 +1633,6 @@ section:nth-child(odd) .animate.scroll{
 }
 
 @media (max-width: 462px){
-
-    .home-content .intro-heading h1{
-       white-space: nowrap;
-    }
 
     .education{
         padding: 10rem 4% 5rem 5%;
