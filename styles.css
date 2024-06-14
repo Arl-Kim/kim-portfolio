@@ -19,6 +19,7 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --deco-color: #0071bc;
+    --text-weight: 600;
 }
 
     /***Light Theme Variables***/
@@ -27,6 +28,7 @@
     --bg-darkmode: #ededed;
     --text-color: #081b29;
     --second-bg-color: #fff;
+    --text-weight: 500;
 }
 
 html{
@@ -41,6 +43,7 @@ body{
 
 p{
     font-size: 12px;
+    font-weight: var(--text-weight);
     text-align: justify;
 }
 
