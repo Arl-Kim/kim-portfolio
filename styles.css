@@ -1400,10 +1400,6 @@ section:nth-child(odd) .animate.scroll{
         background: var(--bg-darkmode);
     }
 
-    p{
-        font-weight: 600;
-    }
-
     #menu_icon{
         display: block;
     }
