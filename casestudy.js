@@ -42,7 +42,7 @@ const projectData = [
       impact: [
         'The MooCourses platform has significantly improved the accessibility of education and training for individual students and businesses across Kenya and other parts of the world, allowing them to learn from anywhere. The real-time collaboration features have enabled more effective tutor-student interactions, thereby enhancing the overall learning experience. Including highly interactive modules in the platform has significantly increased user engagement, with more students completing their courses. Through this project Transfrontieres Agencies Limited experienced a massive transformation in how they offer their Education and Training service to their clients. It perfectly aligned with their objective of full service digitalization.'
       ],
-      techStackDescription: 'For this project, I utilized a robust technology stack. HTML5 and CSS3 were used for front-end development to create a responsive and user-friendly interface. PHP was employed for back-end development, handling server-side logic and operations. MySQL was chosen as the database management system to efficiently store and manage user and course data.',
+      techStackDescription: 'For this project, I utilized a robust technology stack. I used HTML5 and CSS3 for front-end development to create a responsive and user-friendly interface. For the back-end I employed PHP, and it enabled me to handle server-side logic and operations efficiently. I chose MySQL as the database management system to efficiently store and manage user and course data.',
       techStack: [
         { name: 'HTML5', logo: '/images/html.svg' },
         { name: 'CSS', logo: '/images/css.svg' },
@@ -205,7 +205,7 @@ const projectData = [
         impact: [
           'The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières\' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.'
         ],
-        techStackDescription: 'I used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. PHP was utilized for back-end processes, and MySQL for database management, ensuring a robust, scalable, and secure platform.',
+        techStackDescription: 'I used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. I utilized PHP for the back-end processes, and MySQL for database management, ensuring a robust, scalable and secure platform.',
         techStack: [
           { name: 'WordPress', logo: '/images/wordpress.svg' },
           { name: 'HTML5', logo: '/images/html.svg'},
