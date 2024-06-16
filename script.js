@@ -93,3 +93,23 @@ window.onscroll = () => {
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
+
+//Form validation & EmailJS
+
+document.addEventListener('DOMContentLoaded', function() {
+    emailjs.init('NVBnrBxRIIRg9DVIP');
+
+    document.getElementById('contact_form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Custom validation logic if needed
+        let email = document.getElementById('email').value;
+        if (!validateEmail(email)) {
+            showMessage('Please enter a valid email address.', 'error');
+            return;
+        }
+
+        // If validation passes, send the email
+        sendEmail();
+    });
+});
