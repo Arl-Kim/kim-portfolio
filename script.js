@@ -147,3 +147,13 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('contact_form').reset();
     }
 });
+
+
+//Google Analytics Events
+
+document.getElementById('submit_btn').addEventListener('click', function() {
+    gtag('event', 'contact_click', {
+      'event_category': 'Clicked A Button',
+      'event_label': 'Send Message'
+    });
+  });
