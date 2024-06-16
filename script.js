@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 showMessage('Your details have been sent successfully!', 'success');
+                clearForm();
             }, function(error) {
                 console.log('FAILED...', error);
                 showMessage('Failed to send details. Please try again later.', 'error');
@@ -134,5 +135,15 @@ document.addEventListener('DOMContentLoaded', function() {
         messageDiv.textContent = message;
         messageDiv.className = 'form-message ' + type;
         messageDiv.style.display = 'block';
+
+        if (type === 'success') {
+            setTimeout(() => {
+                messageDiv.style.display = 'none';
+            }, 7000);
+        }
+    }
+
+    function clearForm() {
+        document.getElementById('contact_form').reset();
     }
 });
