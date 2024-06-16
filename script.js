@@ -112,4 +112,27 @@ document.addEventListener('DOMContentLoaded', function() {
         // If validation passes, send the email
         sendEmail();
     });
+
+    function validateEmail(email) {
+        var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(String(email).toLowerCase());
+    }
+
+    function sendEmail() {
+        emailjs.sendForm('service_vioa6tm', 'template_9x2qnlm', '#contact_form')
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                showMessage('Your details have been sent successfully!', 'success');
+            }, function(error) {
+                console.log('FAILED...', error);
+                showMessage('Failed to send details. Please try again later.', 'error');
+            });
+    }
+
+    function showMessage(message, type) {
+        const messageDiv = document.getElementById('form_message');
+        messageDiv.textContent = message;
+        messageDiv.className = 'form-message ' + type;
+        messageDiv.style.display = 'block';
+    }
 });
