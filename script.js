@@ -149,11 +149,27 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-//Google Analytics Events
+//Google Analytics 4 Events
 
+//Event For Form Submit Button
 document.getElementById('submit_btn').addEventListener('click', function() {
     gtag('event', 'contact_click', {
       'event_category': 'Clicked A Button',
       'event_label': 'Send Message'
     });
   });
+
+// Function to track link clicks
+function trackLinkClick(event) {
+gtag('event', 'click', {
+    'event_category': 'Clicked A Btn Link',
+    'event_label': event.target.textContent,
+    'link_url': event.target.href,
+    'transport_type': 'beacon'
+});
+}
+
+// Add event listener to all links with class 'track-link'
+document.querySelectorAll('a.track-link').forEach(function(link) {
+link.addEventListener('click', trackLinkClick);
+});
