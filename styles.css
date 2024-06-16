@@ -881,6 +881,22 @@ span{
     cursor: pointer;
 }
 
+.form-message {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+}
+
+.form-message.success {
+    color: var(--text-color);
+}
+
+.form-message.error {
+    color: red;
+}
+
 /*Case Study Page Styles*/
 
 .case-study-intro{
