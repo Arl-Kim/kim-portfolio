@@ -214,6 +214,67 @@ const projectData = [
           {name: 'PHP', logo: '/images/php.svg'},
           {name: 'MySQL', logo: '/images/mysql_server.svg'}
         ]
+      },
+      {
+        id: 'mwalimufred',
+        title: 'Mwalimu Fred Online Project',
+        industry: 'Education',
+        industryIcon: 'school',
+        shortDescription: 'A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events.',
+        image: '/images/transfro_proj_long.gif',
+        duration: '2 Months',
+        launched: 'July 2023',
+        laptopImage: '/images/transfro_laptop.gif',
+        projectOverview: 'The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links.',
+        features: [
+          'User-friendly Interface',
+          'Online Booking System For Consultations',
+          'Secure Access To Digital Solutions',
+          'Live Chat Support',
+          'Responsive Design For All Screen Sizes'
+        ],
+        challenges: [
+          {
+            heading: 'Service Integration',
+            description: 'Integrating all the services including their sub-services into a single cohesive platform required a robust and flexible architecture.',
+          },
+          {
+            heading: 'User Experience',
+            description: 'Ensuring a seamless user experience across diverse services and client needs was a complex task, necessitating meticulous design and testing.'
+          },
+          {
+            heading: 'Security',
+            description: 'Implementing secure access to digital solutions and ensuring data protection across all services was also one of the main challenges in this project.'
+          }
+        ],
+        solutions: [
+          {
+            heading: 'Modular Architecture',
+            description: 'I developed a modular architecture that allows for flexible integration of various services, making it easy to manage and scale the platform.'
+          },
+          {
+            heading: 'Enhanced UX Design',
+            description: 'Through user research and iterative design, I created an intuitive and seamless user experience that caters to individuals of all ages and businesses in different levels.'
+          },
+          {
+            heading: 'Advanced Security Measures',
+            description: 'I implemented secure links and robust authentication mechanisms to protect user data and ensure safe access to all the available digital solutions.'
+          }
+        ],
+        mobileImage: '/images/transfro_mobile.webp',
+        tabletImage: '/images/transfro_tablet.webp',
+        impact: [
+          'The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières\' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.'
+        ],
+        techStackDescription: 'I used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. I utilized PHP for the back-end processes, and MySQL for database management, ensuring a robust, scalable and secure platform.',
+        techStack: [
+          { name: 'WordPress', logo: '/images/wordpress.svg' },
+          { name: 'HTML5', logo: '/images/html.svg'},
+          {name: 'CSS3', logo: '/images/css.svg'},
+          {name: 'JavaScript', logo: '/images/javascript.svg'},
+          {name: 'PHP', logo: '/images/php.svg'},
+          {name: 'MySQL', logo: '/images/mysql_server.svg'}
+        ]
       }
   ];
   
