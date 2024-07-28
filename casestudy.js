@@ -220,14 +220,14 @@ const projectData = [
         title: 'Mwalimu Fred Online Project',
         industry: 'Education',
         industryIcon: 'school',
-        shortDescription: 'A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events.',
-        image: '/images/transfro_proj_long.gif',
+        shortDescription: 'An online platform that provides a secure learning environment and top quality learning materials and resources for Junior Secondary School students in Kenya.',
+        image: '/images/mwalimufred_proj_long.gif',
         duration: '2 Months',
-        launched: 'July 2023',
-        laptopImage: '/images/transfro_laptop.gif',
-        projectOverview: 'The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links.',
+        launched: 'July 2024',
+        laptopImage: '/images/mwalimufred_laptop.gif',
+        projectOverview: 'Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.',
         features: [
-          'User-friendly Interface',
+          'Intuitive UI/UX',
           'Online Booking System For Consultations',
           'Secure Access To Digital Solutions',
           'Live Chat Support',
@@ -261,8 +261,8 @@ const projectData = [
             description: 'I implemented secure links and robust authentication mechanisms to protect user data and ensure safe access to all the available digital solutions.'
           }
         ],
-        mobileImage: '/images/transfro_mobile.webp',
-        tabletImage: '/images/transfro_tablet.webp',
+        mobileImage: '/images/mwalimufred_mobile.webp',
+        tabletImage: '/images/mwalimufred_tablet.webp',
         impact: [
           'The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières\' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.'
         ],
