@@ -228,23 +228,29 @@ const projectData = [
         projectOverview: 'Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.',
         features: [
           'Intuitive UI/UX',
-          'Online Booking System For Consultations',
-          'Secure Access To Digital Solutions',
-          'Live Chat Support',
-          'Responsive Design For All Screen Sizes'
+          'Comprehensive Assessment Tools',
+          'Advanced Analytics & Reporting',
+          'Interactive Learning Tools',
+          'Mobile Accessibility',
+          'User Live Chat',
+          'Integrations & Interoperability'
         ],
         challenges: [
           {
-            heading: 'Service Integration',
-            description: 'Integrating all the services including their sub-services into a single cohesive platform required a robust and flexible architecture.',
+            heading: 'Custom Feature Development',
+            description: 'Adapting the avalibale open-source frameworks to meet unique client requirements involved extensive custom development.',
           },
           {
-            heading: 'User Experience',
-            description: 'Ensuring a seamless user experience across diverse services and client needs was a complex task, necessitating meticulous design and testing.'
+            heading: 'Data Migration',
+            description: 'Transferring existing data into the system required careful planning and execution to avoid data loss or inconsistencies.'
           },
           {
-            heading: 'Security',
-            description: 'Implementing secure access to digital solutions and ensuring data protection across all services was also one of the main challenges in this project.'
+            heading: 'Performance Optimization',
+            description: 'Ensuring the platform could handle high traffic and large numbers of concurrent users with different roles necessitated significant performance tuning and optimization.'
+          },
+          {
+            heading: 'User Training',
+            description: 'Providing adequate training and support for all users using the platform was crucial to ensure successful adoption.'
           }
         ],
         solutions: [
