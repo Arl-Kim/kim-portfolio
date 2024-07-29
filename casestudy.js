@@ -255,16 +255,20 @@ const projectData = [
         ],
         solutions: [
           {
-            heading: 'Modular Architecture',
-            description: 'I developed a modular architecture that allows for flexible integration of various services, making it easy to manage and scale the platform.'
+            heading: 'Custom Plugin Development',
+            description: 'I created custom plugins to extend the systems functionality to meet specific client requirements seamlessly.'
           },
           {
-            heading: 'Enhanced UX Design',
-            description: 'Through user research and iterative design, I created an intuitive and seamless user experience that caters to individuals of all ages and businesses in different levels.'
+            heading: 'Automated Data Migration Tools',
+            description: 'I configured and utilized automated tools for efficient and accurate data migration, which ensured data integrity and easened the process of managing the system.'
           },
           {
-            heading: 'Advanced Security Measures',
-            description: 'I implemented secure links and robust authentication mechanisms to protect user data and ensure safe access to all the available digital solutions.'
+            heading: 'Performance Tuning',
+            description: 'To meet the requirement of top notch performance, I implemented caching, load balancing, and a number performance optimization best practices. This enabled the system to handle high traffic while operating smoothly and seamlessly.'
+          },
+          {
+            heading: 'Comprehensive User Training',
+            description: 'I planned for and conducted extensive training sessions and provided detailed documentation that helped users become proficient with the platform.'
           }
         ],
         mobileImage: '/images/mwalimufred_mobile.webp',
