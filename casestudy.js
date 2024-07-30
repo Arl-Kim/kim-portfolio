@@ -284,6 +284,76 @@ const projectData = [
           {name: 'PHP', logo: '/images/php.svg'},
           {name: 'MySQL', logo: '/images/mysql_server.svg'}
         ]
+      },
+      {
+        id: 'greatlakescrisis',
+        title: 'The Great Lakes Crisis Blog',
+        industry: 'Media',
+        industryIcon: 'media_link',
+        shortDescription: 'A blogging site for personal expression and professional expertise, focusing on the intricate conflicts and crises within the Great Lakes region of Africa.',
+        image: '/images/mwalimufred_proj_long.gif',
+        duration: '2 Months',
+        launched: 'July 2024',
+        laptopImage: '/images/mwalimufred_laptop.webp',
+        projectOverview: 'Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.',
+        features: [
+          'Intuitive UI/UX',
+          'Comprehensive Assessment Tools',
+          'Advanced Analytics & Reporting',
+          'Interactive Learning Tools',
+          'Mobile Accessibility',
+          'User Live Chat',
+          'Integrations & Interoperability'
+        ],
+        challenges: [
+          {
+            heading: 'Custom Feature Development',
+            description: 'Adapting the avalibale open-source frameworks to meet unique client requirements involved extensive custom development.',
+          },
+          {
+            heading: 'Data Migration',
+            description: 'Transferring existing data into the system required careful planning and execution to avoid data loss or inconsistencies.'
+          },
+          {
+            heading: 'Performance Optimization',
+            description: 'Ensuring the platform could handle high traffic and large numbers of concurrent users with different roles necessitated significant performance tuning and optimization.'
+          },
+          {
+            heading: 'User Training',
+            description: 'Providing adequate training and support for all users using the platform was crucial to ensure successful adoption.'
+          }
+        ],
+        solutions: [
+          {
+            heading: 'Custom Plugin Development',
+            description: 'I created custom plugins to extend the systems functionality to meet specific client requirements seamlessly.'
+          },
+          {
+            heading: 'Automated Data Migration Tools',
+            description: 'I configured and utilized automated tools for efficient and accurate data migration, which ensured data integrity and easened the process of managing the system.'
+          },
+          {
+            heading: 'Performance Tuning',
+            description: 'To meet the requirement of top notch performance, I implemented caching, load balancing, and a number performance optimization best practices. This enabled the system to handle high traffic while operating smoothly and seamlessly.'
+          },
+          {
+            heading: 'Comprehensive User Training',
+            description: 'I planned for and conducted extensive training sessions and provided detailed documentation that helped users become proficient with the platform.'
+          }
+        ],
+        mobileImage: '/images/mwalimufred_mobile.webp',
+        tabletImage: '/images/mwalimufred_tablet.webp',
+        impact: [
+          'The "Mwalimu Fred Online" platform has significantly transformed the educational landscape for Junior School, Senior School, and College students in Kenya. By aligning with the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development standards, the platform ensures that students have access to high-quality, curriculum-compliant resources. The emphasis on the Competency-Based Curriculum (CBC) and Digital Literacy has empowered students to develop essential skills for the future. Teachers and students now have a remote, efficient, and secure way to engage with educational content, making learning more accessible and effective. This innovative approach has enhanced the overall learning experience, fostering academic excellence and digital proficiency among students and teachers alike.'
+        ],
+        techStackDescription: 'I utilized HTML5, CSS, and JavaScript for front-end development, ensuring a responsive and engaging user interface. On the back end, I employed PHP to handle server-side processes, and MySQL for robust and scalable database management. This combination of technologies provided a solid foundation for developing a secure, efficient, and high-performing educational platform.',
+        techStack: [
+          { name: 'HTML5', logo: '/images/html.svg'},
+          {name: 'CSS3', logo: '/images/css.svg'},
+          {name: 'JavaScript', logo: '/images/javascript.svg'},
+          {name: 'PHP', logo: '/images/php.svg'},
+          {name: 'MySQL', logo: '/images/mysql_server.svg'}
+        ]
       }
   ];
   
