@@ -291,66 +291,70 @@ const projectData = [
         industry: 'Media',
         industryIcon: 'media_link',
         shortDescription: 'A blogging site for personal expression and professional expertise, focusing on the intricate conflicts and crises within the Great Lakes region of Africa.',
-        image: '/images/mwalimufred_proj_long.gif',
-        duration: '2 Months',
+        image: '/images/greatlakescrisis_proj_long.gif',
+        duration: '1 Month',
         launched: 'July 2024',
-        laptopImage: '/images/mwalimufred_laptop.webp',
-        projectOverview: 'Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.',
+        laptopImage: '/images/greatlakescrisis_laptop.webp',
+        projectOverview: 'The Great Lakes Crisis project involved the creation of a blogging site designed to provide a platform for personal expression and professional expertise, shedding light on the complex conflicts and crises within the Great Lakes region of Africa. The site aims to inform, educate, and engage readers by offering in-depth analyses, personal narratives, and expert insights into the multifaceted issues affecting this region. Users can subscribe to the blog for regular updates and actively contribute through comments and discussions, fostering a community of informed and engaged readers. Through its comprehensive content, the platform seeks to raise awareness and foster a deeper understanding of the challenges and dynamics at play in the Great Lakes area so that collectively, permanent and sustainable solutions can be implemented.',
         features: [
-          'Intuitive UI/UX',
-          'Comprehensive Assessment Tools',
-          'Advanced Analytics & Reporting',
-          'Interactive Learning Tools',
-          'Mobile Accessibility',
-          'User Live Chat',
-          'Integrations & Interoperability'
+          'Interactive User Interface',
+          'Easy Subscription Options',
+          'Comment & Discussion Features',
+          'Membership Accounts',
+          'Multi-Author Support',
+          'Social Media Integration',
+          'Admin & Editor Dsshboards'
         ],
         challenges: [
           {
-            heading: 'Custom Feature Development',
-            description: 'Adapting the avalibale open-source frameworks to meet unique client requirements involved extensive custom development.',
+            heading: 'Content Management',
+            description: 'Ensuring the smooth organization and categorization of diverse content types required meticulous planning and implementation.',
           },
           {
-            heading: 'Data Migration',
-            description: 'Transferring existing data into the system required careful planning and execution to avoid data loss or inconsistencies.'
+            heading: 'User Engagement',
+            description: 'Encouraging active participation from readers through comments and discussions necessitated the development of user-friendly interaction features.'
           },
           {
-            heading: 'Performance Optimization',
-            description: 'Ensuring the platform could handle high traffic and large numbers of concurrent users with different roles necessitated significant performance tuning and optimization.'
+            heading: 'Security',
+            description: 'Implementing robust security measures to protect user data and prevent spam or malicious activity was a critical challenge.'
           },
           {
-            heading: 'User Training',
-            description: 'Providing adequate training and support for all users using the platform was crucial to ensure successful adoption.'
+            heading: 'Scalability',
+            description: 'Designing the platform to handle potential high traffic and increasing content volume while maintaining performance was essential.'
           }
         ],
         solutions: [
           {
+            heading: 'User Engagement Strategies',
+            description: 'I implemented features such as social media integration and interactive comment sections to foster active participation and community engagement.'
+          },
+          {
+            heading: 'Advanced Security Measures',
+            description: 'I deployed security plugins and setup best practices to protect user data, prevent spam, and safeguard the platform against malicious activities.'
+          },
+          {
+            heading: 'SEO Optimization Techniques',
+            description: ' Applied SEO best practices and configured SEO plugins to improve search engine visibility and increase the reach.'
+          },
+          {
+            heading: 'Scalability Solutions',
+            description: 'I optimized the site with performance enhancements like caching and content delivery networks (CDNs) to handle high traffic and ensure smooth operation.'
+          },
+          {
             heading: 'Custom Plugin Development',
-            description: 'I created custom plugins to extend the systems functionality to meet specific client requirements seamlessly.'
-          },
-          {
-            heading: 'Automated Data Migration Tools',
-            description: 'I configured and utilized automated tools for efficient and accurate data migration, which ensured data integrity and easened the process of managing the system.'
-          },
-          {
-            heading: 'Performance Tuning',
-            description: 'To meet the requirement of top notch performance, I implemented caching, load balancing, and a number performance optimization best practices. This enabled the system to handle high traffic while operating smoothly and seamlessly.'
-          },
-          {
-            heading: 'Comprehensive User Training',
-            description: 'I planned for and conducted extensive training sessions and provided detailed documentation that helped users become proficient with the platform.'
+            description: 'I developed custom plugins to enhance WordPress functionality, enabling seamless integration of subscription options, comment systems, and multi-author support.'
           }
         ],
-        mobileImage: '/images/mwalimufred_mobile.webp',
-        tabletImage: '/images/mwalimufred_tablet.webp',
+        mobileImage: '/images/greatlakescrisis_mobile.webp',
+        tabletImage: '/images/greatlakescrisis_tablet.webp',
         impact: [
-          'The "Mwalimu Fred Online" platform has significantly transformed the educational landscape for Junior School, Senior School, and College students in Kenya. By aligning with the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development standards, the platform ensures that students have access to high-quality, curriculum-compliant resources. The emphasis on the Competency-Based Curriculum (CBC) and Digital Literacy has empowered students to develop essential skills for the future. Teachers and students now have a remote, efficient, and secure way to engage with educational content, making learning more accessible and effective. This innovative approach has enhanced the overall learning experience, fostering academic excellence and digital proficiency among students and teachers alike.'
+          'The "Great Lakes Crisis" blog website has made a significant impact by providing a dedicated platform for both personal expression and professional expertise on the conflicts and crises in the Great Lakes region of Africa. The developed platform offers in-depth analyses, personal narratives, and expert insights, going a long way in raising awareness and fostering a deeper understanding of the complex issues affecting the region. The capability of users to subscribe and actively engage through comments and discussions has built a vibrant community of informed readers. This platform not only educates and informs but also encourages dialogue and collaboration, contributing to a more nuanced and comprehensive discourse on the Great Lakes crises. It has opened an avenue through which long lasting solutions to the problems affecting the people of the Great Lakes region can be sought'
         ],
-        techStackDescription: 'I utilized HTML5, CSS, and JavaScript for front-end development, ensuring a responsive and engaging user interface. On the back end, I employed PHP to handle server-side processes, and MySQL for robust and scalable database management. This combination of technologies provided a solid foundation for developing a secure, efficient, and high-performing educational platform.',
+        techStackDescription: 'I utilized HTML5 and CSS, for front-end development, ensuring a responsive and engaging user interface. For the back end, I employed PHP to handle server-side processes, and MySQL for robust and scalable database management. WordPress served as the content management system, providing a flexible and user-friendly platform for blogging. This combination of technologies provided a solid foundation for developing a secure, efficient, and high-performing blogging site.',
         techStack: [
           { name: 'HTML5', logo: '/images/html.svg'},
           {name: 'CSS3', logo: '/images/css.svg'},
-          {name: 'JavaScript', logo: '/images/javascript.svg'},
+          {name: 'WordPress', logo: '/images/wordpress.svg'},
           {name: 'PHP', logo: '/images/php.svg'},
           {name: 'MySQL', logo: '/images/mysql_server.svg'}
         ]
