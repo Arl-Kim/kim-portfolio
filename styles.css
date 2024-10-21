@@ -1099,6 +1099,10 @@ span{
     margin-bottom: 20px;
   }
 
+  .case-study-challenges #challenges_section p {
+    margin-bottom: 20px;
+  }
+
   .case-study-challenges .challenge-text h3,
   .case-study-challenges .challenge-text p{
     margin-bottom: 5px;
@@ -1126,6 +1130,10 @@ span{
   }
 
   .case-study-solutions h2{
+    margin-bottom: 20px;
+  }
+
+  .case-study-solutions #solutions_section p {
     margin-bottom: 20px;
   }
 
