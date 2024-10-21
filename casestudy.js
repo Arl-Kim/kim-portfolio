@@ -81,7 +81,7 @@ const projectData = [
         solutions: [
           {
             heading: 'Optimized Architecture',
-            description: 'Implemented a scalable architecture using Node.js and React, allowing the application to grow with the user base.'
+            description: 'Implemented a scalable architecture using MongoDB, Node.js & Express together with React, allowing the application to grow with the user base.'
           },
           {
             heading: 'Interactive Features',
@@ -360,6 +360,63 @@ const projectData = [
           {name: 'WordPress', logo: '/images/wordpress.svg'},
           {name: 'PHP', logo: '/images/php.svg'},
           {name: 'MySQL', logo: '/images/mysql_server.svg'}
+        ]
+      },
+      {
+        id: 'katf-web',
+        title: 'The KATF Web Project',
+        industry: 'French Education',
+        industryIcon: 'school',
+        shortDescription: 'A React application that provides an informative online platform for members of The Kenya Association of Teachers of French(KATF) and other interested parties.',
+        image: '/images/katf_proj_long.gif',
+        duration: '1 Month',
+        launched: 'September 2024',
+        laptopImage: '/images/katf_laptop.gif',
+        projectOverview: 'The KATF web project involved the creation of a React app to provide an online platform for The Kenya Association of Teachers of French. The main aim of the project was to increase the visibility and reach of the association online. The platform showcases information about KATF, provides updates on past and upcoming events, latest news, membership, available resources and all other relevant content in both French and English languages. The website will serve as a resource for teachers of French in Kenya and will also be accessible to the general public.',
+        features: [
+          'Interactive Dynamic Interfaces',
+          'Language Toggling (French & English)',
+          '15++ Pages',
+          'Responsive Design'
+        ],
+        challenges: [
+          {
+            heading: 'Complex Multilingual Content Management',
+            description: 'Managing and structuring content for multiple languages was a significant challenge. The website needed to support dynamic content changes across different sections in at least two languages (English and French). Ensuring that translations were consistent and the user interface adapted fluidly to language switches added complexity to both the frontend and content management.',
+          },
+          {
+            heading: 'Managing SEO & Analytics For Multiple Routes',
+            description: 'Ensuring effective SEO and tracking user behavior through Google Analytics across multiple routes posed difficulties. Each page, especially for news articles and case studies, needed distinct metadata and tracking events to accurately capture page views and interactions without duplication or loss of data.'
+          },
+          {
+            heading: 'Handling Dynamic Data & Efficient State Management',
+            description: 'Since the website included a news section with frequently updated content, managing dynamic data was a challenge. Additionally, the need to ensure that user selected category-specific data loaded efficiently, without causing delays or unnecessary re-renders, required careful planning for state management.'
+          }
+        ],
+        solutions: [
+          {
+            heading: 'Multilingual Support Using Context Switching',
+            description: 'I implemented a LanguageContext interface to manage and dynamically switch between languages across the site. This ensured that content rendered based on the selected language, and translations were centrally stored, making it easier to maintain consistency and scalability.'
+          },
+          {
+            heading: 'Implementing SEO & Analytics Best Practices',
+            description: 'To address the SEO and analytics issues, I utilized the react-helmet-async library for injecting dynamic meta tags per page, and ReactGA4 to track page views and user interactions across the app. This ensured each page had accurate metadata for search engines and user activity tracking was precise.'
+          },
+          {
+            heading: 'Optimizing State Management',
+            description: 'I addressed the state management challenges by using React\'s useEffect and useContext hooks to load data only when necessary, minimizing re-renders. This ensured efficient loading of news articles and events information with smooth transitions between different content categories without overwhelming the user experience.'
+          }
+        ],
+        mobileImage: '/images/katf_mobile.webp',
+        tabletImage: '/images/katf_tablet.webp',
+        impact: [
+          'The KATF Web Project has significantly amplified the online presence of The Kenya Association of Teachers of French (KATF), fostering better engagement with both its members and the general public. By providing essential information in both French and English, the platform has broadened its accessibility, enabling a wider audience to connect with the association’s resources and events. The seamless user experience allows teachers to access updates on important events, relevant news, and resources in real-time, fostering a more informed and active community. Furthermore, the site’s visibility promotes the learning and teaching of French in Kenya, supporting KATF\'s mission and empowering educators with a centralized platform for collaboration and growth. Overall, the project has modernized KATF’s outreach, enabling it to better serve its members and enhance the association’s relevance in this digital era.'
+        ],
+        techStackDescription: 'For development, I utilized React as the primary JavaScript library, allowing me to create a dynamic and responsive user interface. React’s component-based architecture made it easier to manage and reuse code, enhancing development efficiency. JavaScript was the core language that I used to implement the logic and functionality across the site, ensuring seamless interaction and dynamic content updates. I also employed CSS3 to style the website, ensuring it was visually appealing and provided a smooth user experience on both desktop and mobile devices. This combination of technologies allowed me to build a fast, scalable, and modern platform for KATF.',
+        techStack: [
+          { name: 'React', logo: '/images/react.svg' },
+          { name: 'JavaScript', logo: '/images/javascript.svg' },
+          { name: 'CSS3', logo: '/images/css.svg' },
         ]
       }
   ];
