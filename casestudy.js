@@ -6,14 +6,14 @@ const projectData = [
       industryIcon: 'school',
       shortDescription: 'Transfrontières\' online learning platform with customised EdTech tools through which learners and tutors interact and share knowledge.',
       image: '/images/moocourses_proj_long.gif',
-      duration: '3 Months',
+      duration: '2 Months',
       launched: 'April 2024',
       laptopImage: '/images/moocourses_laptop.gif',
       projectOverview: 'The Transfrontières MooCourses Project aimed to revolutionize online learning by providing a robust platform with customized EdTech tools. It facilitates interaction and knowledge sharing among learners and tutors, making the Education and Training service at Transfrontières Agencies Limited more accessible and effective. Through the platform, clients can now learn French Language for Professional Purposes, ICT, Music, and Research. I built a highly scalable system to allow for additional education and training modules which are due to be added over the next few months. MooCourses has been highly rated by users for its comprehensive approach to online learning and its innovative features.',
       features: [
         'Custom EdTech Tools',
         'Interactive Learning Modules',
-        'Real-Time Collaboration',
+        'Live User Chat',
         'Highly Scalable',
         'Secure User Authentication'
       ],
@@ -24,7 +24,7 @@ const projectData = [
         },
         {
           heading: 'User Engagement',
-          description: 'Ensuring consistent user engagement in a virtual learning environment was difficult, necessitating the development of interactive and gamified elements.'
+          description: 'Ensuring consistent user engagement in a virtual learning environment was a challenging aspect of the project.'
         }
       ],
       solutions: [
@@ -40,7 +40,7 @@ const projectData = [
       mobileImage: '/images/moocourses_mobile.webp',
       tabletImage: '/images/moocourses_tablet.webp',
       impact: [
-        'The MooCourses platform has significantly improved the accessibility of education and training for individual students and businesses across Kenya and other parts of the world, allowing them to learn from anywhere. The real-time collaboration features have enabled more effective tutor-student interactions, thereby enhancing the overall learning experience. Including highly interactive modules in the platform has significantly increased user engagement, with more students completing their courses. Through this project Transfrontieres Agencies Limited experienced a massive transformation in how they offer their Education and Training service to their clients. It perfectly aligned with their objective of full service digitalization.'
+        'The MooCourses platform has significantly improved the accessibility of education and training for individual students and businesses across Kenya and other parts of the world, allowing them to learn from anywhere. The real-time feedback and collaboration features have enabled more effective tutor-student interactions, thereby enhancing the overall learning experience. Including highly interactive modules in the platform has significantly increased user engagement, with more students completing their courses. Through this project Transfrontières Agencies Limited experienced a massive transformation in how they offer their Education and Training service to their clients. It perfectly aligned with their objective of full service digitalization.'
       ],
       techStackDescription: 'For this project, I utilized a robust technology stack. I used HTML5 and CSS3 for front-end development to create a responsive and user-friendly interface. For the back-end I employed PHP, and it enabled me to handle server-side logic and operations efficiently. I chose MySQL as the database management system to efficiently store and manage user and course data.',
       techStack: [
@@ -52,29 +52,30 @@ const projectData = [
     },
     {
         id: 'raasis',
-        title: 'The Ra\'Asis Software Web App',
+        title: 'The Ra\'Asis Software React App',
         industry: 'Software Engineering',
         industryIcon: 'developer_board',
-        shortDescription: 'A dynamic web application through which Ra\'Asis Software\'s clients can directly access Ra\'Asis services and development teams for their projects.',
+        shortDescription: 'A dynamic React application through which Ra\'Asis Software\'s clients can directly access Ra\'Asis services and development teams for their projects.',
         image: '/images/raasis_proj_long.gif',
         duration: '3 Months',
         launched: 'May 2024',
         laptopImage: '/images/raasis_laptop.gif',
-        projectOverview: 'This project involved the development of a dynamic platform designed to bridge the gap between Ra\'Asis Software clients and their services and development teams. The web application offers an intuitive and efficient way for the startup to showcase their services, products and portfolio, track their progress, and interact directtly with their clients. The application ensures a seamless user experience, facilitating effective communication and efficient project management.',
+        projectOverview: 'This project involved the development of a dynamic platform designed to bridge the gap between Ra\'Asis Software clients and their services and development teams. The application offers an intuitive and efficient way for the startup to showcase their services, products and portfolio, track their progress, and interact directtly with their clients. It ensures a seamless user experience, facilitating effective communication and efficient project management.',
         features: [
           'Interactive & User-Friendly Interface',
-          'Dynamic Forms',
-          'Direct Communication With Development Teams',
-          'Service Tracking & Client Management'
+          'Dynamic Components',
+          'Service Tracking & Client Management',
+          'Interactive Blog',
+          'User Management'
         ],
         challenges: [
           {
             heading: 'Scalability',
-            description: 'Ensuring the web application can handle increasing numbers of users and data without compromising performance.'
+            description: 'Ensuring the application can handle increasing numbers of users and data without compromising performance.'
           },
           {
             heading: 'User Engagement',
-            description: 'Creating an engaging user experience that encourages clients to actively use the platform and select Ra\'Asis development teams.'
+            description: 'Creating an engaging user experience that encourages clients to actively use the platform and have a high likelihood of selecting Ra\'Asis Software\'s development teams and services.'
           }
         ],
         solutions: [
@@ -92,11 +93,12 @@ const projectData = [
         impact: [
           'The developed application has enhanced client satisfaction through direct and efficient communication with development teams, leading to better project outcomes. Ra\'Asis Software now have improved project management and tracking capabilities, allowing clients and project managers alike to monitor progress and make informed decisions in real-time. The scalable nature of the application supports future growth, ensuring the platform remains robust and reliable as the service scope, user base and overall traffic expands.'
         ],
-        techStackDescription: 'I leveraged a modern technology stack to deliver a seamless and efficient user experience. Utilizing React, Vanilla JS and CSS for the frontend and Node.js for the backend, the platform is designed to be highly responsive and scalable, meeting the demands of a growing service scope, portfolio and user base.',
+        techStackDescription: 'I leveraged a modern technology stack to deliver a seamless and efficient user experience. Utilizing React, Vanilla JS and CSS for the frontend and Node.js with a MongoDB database for the backend, the platform is designed to be highly responsive and scalable, meeting the demands of a growing service scope, portfolio and user base.',
         techStack: [
           { name: 'React', logo: '/images/react.svg' },
           { name: 'Node.js', logo: '/images/node.svg' },
           { name: 'JavaScript', logo: '/images/javascript.svg' },
+          {name: 'MongoDB', logo: '/images/mongodb.svg' },
           { name: 'CSS', logo: '/images/css.svg' }
         ]
       },
@@ -110,7 +112,7 @@ const projectData = [
         duration: '2 Months',
         launched: 'August 2023',
         laptopImage: '/images/oaksafrica_laptop.gif',
-        projectOverview: 'The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation\'s objectives. Through the platform, interested parties can get information about the foundation\'s agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the development of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results.',
+        projectOverview: 'The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation\'s objectives. Through the platform, interested parties can get information about the foundation\'s agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the adoption and customization of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results.',
         features: [
           'Responsive Design',
           'CMS For Easy Content Updates',
@@ -122,21 +124,21 @@ const projectData = [
         challenges: [
           {
             heading: 'Content Management',
-            description: 'Developing an intuitive CMS that allowed the foundation\'s team to easily update and manage content without deep technical expertise was one of the challenges encountered.'
+            description: 'Adoption and customization of an intuitive CMS to allow the foundation\'s team to easily update and manage content without deep technical expertise was one of the challenges encountered.'
           },
           {
             heading: 'User Engagement',
-            description: 'Ensuring high user engagement and interaction through the website, particularly for applying to programs and donating to fund the programs.'
+            description: 'Ensuring high user engagement and interaction through the website, particularly for applying to programs and donating to fund the programs was also a challenge that needed to be addressed.'
           }
         ],
         solutions: [
           {
             heading: 'User-Friendly CMS',
-            description: 'I implemented a WordPress-based CMS, utilizing customized theme templates and features that provided easy content management by the foundation\'s team.'
+            description: 'I implemented a WordPress-based CMS, utilizing customized theme templates and additional features that provided easy content management by the foundation\'s team.'
           },
           {
             heading: 'Interactive Features',
-            description: 'I also developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
+            description: 'I also designed and developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.'
           }
         ],
         mobileImage: '/images/oaksafrica_mobile.webp',
@@ -159,7 +161,7 @@ const projectData = [
         title: 'Transfrontières Agencies Website',
         industry: 'Multi-Service',
         industryIcon: 'link',
-        shortDescription: 'A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events.',
+        shortDescription: 'A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events Management.',
         image: '/images/transfro_proj_long.gif',
         duration: '2 Months',
         launched: 'July 2023',
@@ -238,7 +240,7 @@ const projectData = [
         challenges: [
           {
             heading: 'Custom Feature Development',
-            description: 'Adapting the avalibale open-source frameworks to meet unique client requirements involved extensive custom development.',
+            description: 'Adapting the available open-source frameworks to meet unique client requirements involved extensive custom development.',
           },
           {
             heading: 'Data Migration',
@@ -256,7 +258,7 @@ const projectData = [
         solutions: [
           {
             heading: 'Custom Plugin Development',
-            description: 'I created custom plugins to extend the systems functionality to meet specific client requirements seamlessly.'
+            description: 'I created custom plugins to extend the system\'s functionality to meet specific client requirements seamlessly.'
           },
           {
             heading: 'Automated Data Migration Tools',
@@ -295,7 +297,7 @@ const projectData = [
         duration: '1 Month',
         launched: 'July 2024',
         laptopImage: '/images/greatlakescrisis_laptop.webp',
-        projectOverview: 'The Great Lakes Crisis project involved the creation of a blogging site designed to provide a platform for personal expression and professional expertise, shedding light on the complex conflicts and crises within the Great Lakes region of Africa. The site aims to inform, educate, and engage readers by offering in-depth analyses, personal narratives, and expert insights into the multifaceted issues affecting this region. Users can subscribe to the blog for regular updates and actively contribute through comments and discussions, fostering a community of informed and engaged readers. Through its comprehensive content, the platform seeks to raise awareness and foster a deeper understanding of the challenges and dynamics at play in the Great Lakes area so that collectively, permanent and sustainable solutions can be implemented.',
+        projectOverview: 'The Great Lakes Crisis project involved the creation of a blogging site designed to provide a platform for personal expression and professional expertise, shedding light on the complex conflicts and crises within the Great Lakes region of Africa. The site aims to inform, educate, and engage readers by offering in-depth analyses, personal narratives, and expert insights into the multifaceted issues affecting this region. Users can subscribe to the blog for regular updates and actively contribute through comments and discussions, fostering a community of informed and engaged readers. The site is available in English, French and Swahili which ensures inclusivity for all peoples within the region and even beyond. Through its comprehensive content, the platform seeks to raise awareness and foster a deeper understanding of the challenges and dynamics at play in the Great Lakes area so that collectively, permanent and sustainable solutions can be implemented.',
         features: [
           'Interactive User Interface',
           'Easy Subscription Options',
@@ -303,7 +305,8 @@ const projectData = [
           'Membership Accounts',
           'Multi-Author Support',
           'Social Media Integration',
-          'Admin & Editor Dsshboards'
+          'Multi-Lingual Support',
+          'Admin & Editor Dashboards'
         ],
         challenges: [
           {
@@ -338,7 +341,7 @@ const projectData = [
           },
           {
             heading: 'Scalability Solutions',
-            description: 'I optimized the site with performance enhancements like caching and content delivery networks (CDNs) to handle high traffic and ensure smooth operation.'
+            description: 'I optimized the site with performance enhancements specifically caching and content delivery networks (CDNs) to handle high traffic and ensure smooth operation.'
           },
           {
             heading: 'Custom Plugin Development',
