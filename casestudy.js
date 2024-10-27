@@ -226,7 +226,7 @@ const projectData = [
         image: '/images/mwalimufred_proj_long.gif',
         duration: '2 Months',
         launched: 'July 2024',
-        laptopImage: '/images/mwalimufred_laptop.webp',
+        laptopImage: '/images/mwalimufred_laptop.gif',
         projectOverview: 'Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.',
         features: [
           'Intuitive UI/UX',
