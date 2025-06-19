@@ -128,7 +128,7 @@ const projectData = [
     launched: "August 2023",
     laptopImage: "/images/oaksafrica_laptop.gif",
     projectOverview:
-      "The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation's objectives. Through the platform, interested parties can get information about the foundation's agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the adoption and customization of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results.",
+      "The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation's objectives. Through the platform, interested parties can get information about the foundation's agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the adoption and customization of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results. I worked alone in the first stage of the project up to deployment. Mid last year, I collaborated with a graphics designer and a front-end developer to redesign the website to what it is at the moment.",
     features: [
       "Responsive Design",
       "CMS For Easy Content Updates",
@@ -153,12 +153,12 @@ const projectData = [
       {
         heading: "User-Friendly CMS",
         description:
-          "I implemented a WordPress-based CMS, utilizing customized theme templates and additional features that provided easy content management by the foundation's team.",
+          "We implemented a WordPress-based CMS, utilizing customized theme templates and additional features that provided easy content management by the foundation's team.",
       },
       {
         heading: "Interactive Features",
         description:
-          "I also designed and developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.",
+          "We also designed and developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.",
       },
     ],
     mobileImage: "/images/oaksafrica_mobile.webp",
@@ -167,7 +167,7 @@ const projectData = [
       "The website has significantly increased the foundation’s online visibility, leading to higher traffic and increased engagement with the community. The interactive scholarship and sponsorship applications, secure online donation payments and constant communication channels through newsletters and website adverts have simplified the process for users and elevated their experiences. The results are evident in more scholarship applications and donations as compared to when the process was only handled offline. The user-friendly CMS has empowered the foundation’s team to manage and update content efficiently without needing frequent technical support.",
     ],
     techStackDescription:
-      "For this project, I utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. I built the front-end using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. For the back-end I utilized WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. I integrated IntaSend API for secure and efficient payment processing in online donations and sponsorship funding.",
+      "For this project, we utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. I initially built the front-end using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. For the back-end I utilized WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. I integrated IntaSend API for secure and efficient payment processing in online donations and sponsorship funding.",
     techStack: [
       { name: "WordPress", logo: "/images/wordpress.svg" },
       { name: "HTML5", logo: "/images/html.svg" },
@@ -189,7 +189,7 @@ const projectData = [
     launched: "July 2023",
     laptopImage: "/images/transfro_laptop.gif",
     projectOverview:
-      "The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links.",
+      "The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links. I worked alone in the first stage of the project up to deployment. In recent times I have collaborated with a graphics designer and a front-end developer to redesign the website to what it is at the moment.",
     features: [
       "User-friendly Interface",
       "Online Booking System For Consultations",
@@ -218,7 +218,7 @@ const projectData = [
       {
         heading: "Modular Architecture",
         description:
-          "I developed a modular architecture that allows for flexible integration of various services, making it easy to manage and scale the platform.",
+          "Initially, I developed a modular architecture that allows for flexible integration of various services, which has made it easy to manage and scale the platform as was evident when we redesigned it.",
       },
       {
         heading: "Enhanced UX Design",
@@ -237,7 +237,7 @@ const projectData = [
       "The integrated services on the website have significantly improved client engagement, providing a centralized platform for accessing all the offerings of Transfrontières Agencies Ltd. The online booking system has streamlined all consultation processes, making it more efficient and convenient for Transfrontières' clients. The secure linking to the available digital solutions per service have increased client trust and satisfaction, leading to positive feedback and higher retention rates.",
     ],
     techStackDescription:
-      "I used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. I utilized PHP for the back-end processes, and MySQL for database management, ensuring a robust, scalable and secure platform.",
+      "We used WordPress for a flexible CMS, with HTML, CSS, and JavaScript for front-end development. I utilized PHP for the back-end processes, and MySQL for database management, ensuring a robust, scalable and secure platform.",
     techStack: [
       { name: "WordPress", logo: "/images/wordpress.svg" },
       { name: "HTML5", logo: "/images/html.svg" },
