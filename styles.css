@@ -941,14 +941,14 @@ span {
   align-items: center;
 }
 
-.case-study-intro .case-intro-right .case-intro-image {
+.case-study-intro .case-intro-right .case-intro-video {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 70px;
 }
 
-.case-study-intro .case-intro-right .case-intro-image img {
+.case-study-intro .case-intro-right .case-intro-video video {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -998,7 +998,7 @@ span {
   font-size: 70px;
 }
 
-.laptop-image-section {
+.laptop-media-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1006,7 +1006,7 @@ span {
   margin-bottom: 40px;
 }
 
-.laptop-image-section img {
+.laptop-media-section .case-study-media {
   max-width: 100%;
   max-height: 100%;
 }

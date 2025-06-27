@@ -6,10 +6,10 @@ const projectData = [
     industryIcon: "school",
     shortDescription:
       "Transfrontières' online learning platform with customised EdTech tools through which learners and tutors interact and share knowledge.",
-    image: "/images/moocourses_proj_long.gif",
+    video: "/images/moocourses_proj_long.mp4",
     duration: "2 Months",
     launched: "April 2024",
-    laptopImage: "/images/moocourses_laptop.gif",
+    laptopImage: "/images/moocourses_laptop.mp4",
     projectOverview:
       "The Transfrontières MooCourses Project aimed to revolutionize online learning by providing a robust platform with customized EdTech tools. It facilitates interaction and knowledge sharing among learners and tutors, making the Education and Training service at Transfrontières Agencies Limited more accessible and effective. Through the platform, clients can now learn French Language for Professional Purposes, ICT, Music, and Research. I built a highly scalable system to allow for additional education and training modules which are due to be added over the next few months. MooCourses has been highly rated by users for its comprehensive approach to online learning and its innovative features.",
     features: [
@@ -56,6 +56,7 @@ const projectData = [
       { name: "PHP", logo: "/images/php.svg" },
       { name: "MySQL", logo: "/images/mysql_server.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "raasis",
@@ -64,10 +65,10 @@ const projectData = [
     industryIcon: "developer_board",
     shortDescription:
       "A dynamic React application through which Ra'Asis Software's clients can directly access Ra'Asis services and development teams for their projects.",
-    image: "/images/raasis_proj_long.gif",
+    video: "/images/raasis_proj_long.mp4",
     duration: "3 Months",
     launched: "May 2024",
-    laptopImage: "/images/raasis_laptop.gif",
+    laptopImage: "/images/raasis_laptop.mp4",
     projectOverview:
       "This project involved the development of a dynamic platform designed to bridge the gap between Ra'Asis Software clients and their services and development teams. The application offers an intuitive and efficient way for the startup to showcase their services, products and portfolio, track their progress, and interact directtly with their clients. It ensures a seamless user experience, facilitating effective communication and efficient project management.",
     features: [
@@ -115,6 +116,7 @@ const projectData = [
       { name: "MongoDB", logo: "/images/mongodb.svg" },
       { name: "CSS", logo: "/images/css.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "oaksafrica",
@@ -123,10 +125,10 @@ const projectData = [
     industryIcon: "volunteer_activism",
     shortDescription:
       "An online platform for Oaks Africa Foundation to provide information about their mission, vision and community development projects and initiatives. It facilitates a seamless interface to run OAF scholarship and sponsorship programs online.",
-    image: "/images/oaksafrica_proj_long.gif",
+    video: "/images/oaksafrica_proj_long.mp4",
     duration: "2 Months",
     launched: "August 2023",
-    laptopImage: "/images/oaksafrica_laptop.gif",
+    laptopImage: "/images/oaksafrica_laptop.mp4",
     projectOverview:
       "The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation's objectives. Through the platform, interested parties can get information about the foundation's agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the adoption and customization of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results. I worked alone in the first stage of the project up to deployment. Mid last year, I collaborated with a graphics designer and a front-end developer to redesign the website to what it is at the moment.",
     features: [
@@ -176,6 +178,7 @@ const projectData = [
       { name: "PHP", logo: "/images/php.svg" },
       { name: "MySQL", logo: "/images/mysql_server.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "transfrontieres",
@@ -184,10 +187,10 @@ const projectData = [
     industryIcon: "link",
     shortDescription:
       "A comprehensive website for Transfrontières Agencies Limited to connect clients with a wide range of integrated services, including Communications, Education & Training, ICT, and Events Management.",
-    image: "/images/transfro_proj_long.gif",
+    video: "/images/transfro_proj_long.mp4",
     duration: "2 Months",
     launched: "July 2023",
-    laptopImage: "/images/transfro_laptop.gif",
+    laptopImage: "/images/transfro_laptop.mp4",
     projectOverview:
       "The Transfrontières Agencies Website is an Integrated Services platform that was developed to streamline the connection between the agency and its clients, primarily businesses and brands. The website offers an easy-to-navigate interface where clients can book consultations and directly access digital solutions in Communications, Education & Training, ICT, and Events through secure links. I worked alone in the first stage of the project up to deployment. In recent times I have collaborated with a graphics designer and a front-end developer to redesign the website to what it is at the moment.",
     features: [
@@ -246,6 +249,7 @@ const projectData = [
       { name: "PHP", logo: "/images/php.svg" },
       { name: "MySQL", logo: "/images/mysql_server.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "mwalimufred",
@@ -254,10 +258,10 @@ const projectData = [
     industryIcon: "school",
     shortDescription:
       "An online platform that provides a secure learning environment and top quality learning materials and resources for Junior Secondary School students in Kenya.",
-    image: "/images/mwalimufred_proj_long.gif",
+    video: "/images/mwalimufred_proj_long.mp4",
     duration: "2 Months",
     launched: "July 2024",
-    laptopImage: "/images/mwalimufred_laptop.gif",
+    laptopImage: "/images/mwalimufred_laptop.mp4",
     projectOverview:
       "Mwalimu Fred Online is a premier educational platform dedicated to providing top-quality learning, secure learning environment, materials and resources in line with the curriculum standards set by the Ministry of Education, Kenya National Examinations Council, and the Kenya Institute of Curriculum Development. The platform focuses on Junior School, Senior School, and College students, emphasizing the new Competency-Based Curriculum (CBC) and Digital Literacy as one of its core competencies. The system developed provides a remote and efficient way for students and teachers to enforce their mandate under CBC.",
     features: [
@@ -327,6 +331,7 @@ const projectData = [
       { name: "PHP", logo: "/images/php.svg" },
       { name: "MySQL", logo: "/images/mysql_server.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "greatlakescrisis",
@@ -335,7 +340,7 @@ const projectData = [
     industryIcon: "media_link",
     shortDescription:
       "A blogging site for personal expression and professional expertise, focusing on the intricate conflicts and crises within the Great Lakes region of Africa.",
-    image: "/images/greatlakescrisis_proj_long.gif",
+    video: "/images/greatlakescrisis_proj_long.mp4",
     duration: "1 Month",
     launched: "July 2024",
     laptopImage: "/images/greatlakescrisis_laptop.webp",
@@ -422,10 +427,10 @@ const projectData = [
     industryIcon: "school",
     shortDescription:
       "A React application that provides an informative online platform for members of The Kenya Association of Teachers of French(KATF) and other interested parties.",
-    image: "/images/katf_proj_long.gif",
+    video: "/images/katf_proj_long.mp4",
     duration: "1 Month",
     launched: "September 2024",
-    laptopImage: "/images/katf_laptop.gif",
+    laptopImage: "/images/katf_laptop.mp4",
     projectOverview:
       "The KATF web project involved the creation of a React app to provide an online platform for The Kenya Association of Teachers of French. The main aim of the project was to increase the visibility and reach of the association online. The platform showcases information about KATF, provides updates on past and upcoming events, latest news, membership, available resources and all other relevant content in both French and English languages. The website will serve as a resource for teachers of French in Kenya and will also be accessible to the general public.",
     features: [
@@ -480,6 +485,7 @@ const projectData = [
       { name: "JavaScript", logo: "/images/javascript.svg" },
       { name: "CSS3", logo: "/images/css.svg" },
     ],
+    hasVideoDisplay: true,
   },
   {
     id: "zealed-web",
@@ -488,7 +494,7 @@ const projectData = [
     industryIcon: "link",
     shortDescription:
       "A React application for Zealed.Co that provides a professional web platform to enable meaningful connections between internship seekers and internship providers.",
-    image: "/images/zealed_proj_long.gif",
+    video: "/images/zealed_proj_long.mp4",
     duration: "1 Month",
     launched: "March 2025",
     laptopImage: "/images/zealed_responsive.webp",
@@ -551,7 +557,7 @@ const projectData = [
   },
 ];
 
-function populateCaseStudyPage(projectId) {
+const populateCaseStudyPage = (projectId) => {
   const project = projectData.find((item) => item.id === projectId);
   if (project) {
     document.getElementById("page_title").innerText =
@@ -561,7 +567,7 @@ function populateCaseStudyPage(projectId) {
     document.getElementById("case_study_title").textContent = project.title;
     document.getElementById("case_study_short_description").textContent =
       project.shortDescription;
-    document.getElementById("case_study_image").src = project.image;
+    document.getElementById("case_study_video").src = project.video;
 
     document.getElementById("material_symbol").textContent =
       project.industryIcon;
@@ -570,7 +576,28 @@ function populateCaseStudyPage(projectId) {
       project.duration;
     document.getElementById("case_study_launched").textContent =
       project.launched;
-    document.getElementById("laptop_image").src = project.laptopImage;
+
+    // Handle laptop media section (video or image)
+    const mediaContainer = document.getElementById("laptop_media_container");
+    mediaContainer.innerHTML = ""; // Clear existing content
+
+    if (project.hasVideoDisplay) {
+      // Create video element
+      const videoElement = document.createElement("video");
+      videoElement.src = project.laptopImage;
+      videoElement.autoplay = true;
+      videoElement.loop = true;
+      videoElement.muted = true;
+      videoElement.classList.add("case-study-media");
+      mediaContainer.appendChild(videoElement);
+    } else {
+      // Create image element
+      const imgElement = document.createElement("img");
+      imgElement.src = project.laptopImage;
+      imgElement.alt = project.title + " screenshot";
+      imgElement.classList.add("case-study-media");
+      mediaContainer.appendChild(imgElement);
+    }
 
     document.getElementById("project_overview").textContent =
       project.projectOverview;
@@ -621,12 +648,12 @@ function populateCaseStudyPage(projectId) {
   } else {
     console.error("Project not found!");
   }
-}
+};
 
-function handleCaseStudyPage() {
+const handleCaseStudyPage = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const projectId = urlParams.get("id");
   populateCaseStudyPage(projectId);
-}
+};
 
 document.addEventListener("DOMContentLoaded", handleCaseStudyPage);
