@@ -493,13 +493,13 @@ const projectData = [
     industry: "Multi-Service",
     industryIcon: "link",
     shortDescription:
-      "A React application for Zealed.Co that provides a professional web platform to enable meaningful connections between internship seekers and internship providers.",
+      "A React application for Zealed.Co that provides a professional and informative static web platform for them to establish a commanding online presence.",
     video: "/images/zealed_proj_long.mp4",
     duration: "1 Month",
     launched: "March 2025",
     laptopImage: "/images/zealed_responsive.webp",
     projectOverview:
-      "This project involved the development of a React application that has provided a professional and user-friendly web platform for internship listings, with features that cater to posting internship opportunities, sharing career tips, and offering seamless navigation for users. The project was planned to be executed in two phases, ensuring scalability and a structured development approach. The first phase of the project involved the development of a simple 5-page foundational website that is now available on any device with an internet connection. I contributed directly as Scrum Master and Front-End Developer working with one other team member, a Graphics and UI/UX designer. My main role was transforming the client-approved designs into functional reusable React components and pages.  The project is currently in the second phase where we are upgrading to a full-stack web application with more advanced features and functionalities. In this second phase I am contributing in the capacity of Scrum Master and Full-Stack Developer.",
+      "This project involved the development of a React application that has provided a professional and user-friendly web platform for exploring internship opportunities, accessing valuable career tips, and information about what Zealed has to offer. The project was planned to be executed in two phases, ensuring scalability and a structured development approach. The first phase of the project involved the development of a simple 5-page foundational website that is now available on any device with an internet connection. I contributed directly as Scrum Master and Front-End Developer working with one other team member, a Graphics and UI/UX designer. My main role was transforming the client-approved designs into functional reusable React components and pages.  The project is currently well into the second phase where we are upgrading to a full-stack web application with more advanced features and functionalities. In this second phase I have been contributing in the capacity of Scrum Master and Full-Stack Developer in a team of two.",
     features: [
       "Interactive Dynamic Interfaces",
       "Direct Internship Application Buttons",
