@@ -555,6 +555,99 @@ const projectData = [
       { name: "CSS3", logo: "/images/css.svg" },
     ],
   },
+  {
+    id: "zealed-web-app",
+    title: "The Zealed Web Application Project",
+    industry: "Multi-Service, Careers",
+    industryIcon: "business_center",
+    shortDescription:
+      "A MERN stack web application for Zealed.Co for dynamic internship listings, with features that cater to posting internship opportunities, tracking applications and sharing and contributing career tips.",
+    video: "/images/zealed_app_proj_long.mp4",
+    duration: "1 Month",
+    launched: "June 2025 (MVP)",
+    laptopImage: "/images/zealed_app_laptop.mp4",
+    projectOverview:
+      "The second phase of the Zealed Web Project resulted in the creation of an improved dynamic web platform for Zealed.Co. I worked hand in hand with the Product Owner and a Graphics and UI/UX Designer contributing my Full-Stack and Scrum Master expertise to build a full-featured MERN stack web application designed to streamline the internship experience for both organizations/employers and applicants. Built using MongoDB, Express.js, React, and Node.js, the platform allows administrators, authorized editors and employers to dynamically post and manage internship opportunities, while providing applicants with an intuitive interface to browse listings, submit applications, and track their application progress. Beyond listings and application tracking, the portal includes a collaborative space where users can share and contribute career development tips, creating a vibrant community focused on professional growth. This comprehensive system supports both administrative efficiency and user engagement, making it a valuable tool for Zealed.Co’s talent development ecosystem. We just launched the MVP and the work continues to improve the platform continuously, applying strict Agile Scrum with efficient Continuous Integration/Continuous Development methods.",
+    features: [
+      "User Management",
+      "Role-Based Access Control (RBAC)",
+      "Dynamic Internship Listings",
+      "Resume Upload & Application Tracking",
+      "Interactive Career Tips Section",
+      "LinkedIn & Third-Party Integrations",
+      "Payment Gateway Integration",
+    ],
+    challenges: [
+      {
+        heading: "Complex Role-Based Access Control (RBAC)",
+        description:
+          "Designing and implementing flexible user permissions for admins, editors, employers, and applicants required careful planning to avoid privilege escalation and maintain a secure data environment.",
+      },
+      {
+        heading: "Dynamic Content Management",
+        description:
+          "Ensuring internships and career tips could be created, updated, and deleted in real-time without breaking page consistency or UX flow demanded robust API and frontend-state synchronization.",
+      },
+      {
+        heading: "Integration with External Services",
+        description:
+          "Incorporating email notifications, file uploads (e.g., resumes), and third-party APIs especially LinkedIn and Mailgun introduced dependencies that had to be securely and reliably managed.",
+      },
+      {
+        heading: "Application Status Tracking",
+        description:
+          "Building an intuitive system to allow applicants to monitor their application progress required a scalable backend schema and clear UI logic to handle various stages like submitted, under review, shortlisted, or rejected.",
+      },
+      {
+        heading: "Responsive UI/UX Collaboration",
+        description:
+          "Translating static UI/UX designs into dynamic, responsive React components involved constant communication with the designer to ensure alignment with product vision across multiple devices and screen sizes.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Granular Role-Based Middleware",
+        description:
+          "I implemented a middleware-based RBAC system in Express.js, supported by token-based role checks in the frontend, to ensure access was securely segmented for each user role without code duplication or privilege leaks.",
+      },
+      {
+        heading: "Robust CRUD APIs and State Sync",
+        description:
+          "I built scalable RESTful endpoints with MongoDB queries optimized for dynamic data, and used React state management alongside optimistic UI updates to maintain real-time consistency across content operations.",
+      },
+      {
+        heading: "Secure and Modular API Integrations",
+        description:
+          "I modularized integration logic for services like Mailgun and LinkedIn OAuth, securely storing API keys in environment configs and isolating third-party failures from affecting core platform workflows.",
+      },
+      {
+        heading: "Flexible Status Workflow System",
+        description:
+          "I designed a flexible status tracking model in MongoDB, mapping application stages to enums and creating visual UI indicators for applicants to track their progress easily and transparently.",
+      },
+      {
+        heading: "Agile Design-Dev Feedback Loops",
+        description:
+          "We maintained a tight feedback loop with the designer and product owner using Figma and iterative previews, enabling smooth transitions from mockups to responsive, pixel-perfect React components compatible across screen sizes.",
+      },
+    ],
+    mobileImage: "/images/zealed_app_mobile.webp",
+    tabletImage: "/images/zealed_app_tablet.webp",
+    impact: [
+      "The second phase of the Zealed Web Project deepened the platform’s real-world impact by transforming it from a static showcase into a dynamic, interactive ecosystem for opportunity and growth. For individuals, especially students and early-career professionals, the platform now offers a more empowering experience, enabling them not just to discover internships but to actively manage their applications and learn from community-contributed career insights. Employers and organizations benefit from a streamlined channel to attract and assess candidates, saving time and ensuring their opportunities reach the right audiences. At a broader level, the platform fosters a culture of knowledge-sharing and mentorship through its collaborative features, promoting professional development within the community. Overrall, this upgraded system plays a pivotal role in bridging the gap between talent and opportunity, by supporting structured workflows, inclusive access, and continuous engagement,  reinforcing Zealed.Co’s commitment to youth empowerment and workforce readiness across the region.",
+    ],
+    techStackDescription:
+      "The Zealed Web App was built using the MERN stack: MongoDB, Express.js, React, and Node.js, providing a robust and scalable foundation for both frontend and backend development. React, bundled with Vite for faster build times and a more efficient development experience, powered the dynamic and responsive user interface, enabling smooth navigation and real-time updates across the platform. Express.js and Node.js handled the backend logic and RESTful APIs, ensuring secure data flow and seamless integration with the external services, Mailgun and LinkedIn. MongoDB served as the primary database, offering flexibility in managing complex user roles, application statuses, and dynamic content structures. On the design side, Figma was used by the UI/UX designer to craft high-fidelity prototypes, allowing for smooth handoff and close collaboration between design and development. This modern, full-stack architecture allows for rapid iteration, strong performance, and scalability as the platform evolves beyond its MVP.",
+    techStack: [
+      { name: "MongoDB", logo: "/images/mongodb.svg" },
+      { name: "Express.js", logo: "/images/express.svg" },
+      { name: "React", logo: "/images/react.svg" },
+      { name: "Node.js", logo: "/images/node.svg" },
+      { name: "Vite", logo: "/images/vite.svg" },
+      { name: "CSS3", logo: "/images/css.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
 ];
 
 const populateCaseStudyPage = (projectId) => {
