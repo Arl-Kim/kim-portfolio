@@ -600,7 +600,7 @@ span {
 }
 
 .skills-content .progress .bar span {
-  background: var(--deco-color);
+  background: linear-gradient(90deg, var(--text-color), var(--deco-color));
   display: block;
   height: 100%;
   border-radius: 2px;
@@ -660,6 +660,10 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(14) .bar span {
+  width: 80%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(15) .bar span {
   width: 70%;
 }
 
