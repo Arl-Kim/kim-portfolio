@@ -119,68 +119,6 @@ const projectData = [
     hasVideoDisplay: true,
   },
   {
-    id: "oaksafrica",
-    title: "The Oaks Africa Foundation Project",
-    industry: "Non-Profit",
-    industryIcon: "volunteer_activism",
-    shortDescription:
-      "An online platform for Oaks Africa Foundation to provide information about their mission, vision and community development projects and initiatives. It facilitates a seamless interface to run OAF scholarship and sponsorship programs online.",
-    video: "/images/oaksafrica_proj_long.mp4",
-    duration: "2 Months",
-    launched: "August 2023",
-    laptopImage: "/images/oaksafrica_laptop.mp4",
-    projectOverview:
-      "The Oaks Africa Foundation website project aimed to create a visually appealing, user-friendly, and responsive platform that aligned with the foundation's objectives. Through the platform, interested parties can get information about the foundation's agenda, mission, vision scholarship and sponsorship programs and many other OAF projects. It offers interactive ways for visitors to apply for scholarships, donate funds, apply for sponsorship programs, and start sponsoring. The project also included the adoption and customization of a content management system (CMS) for easy content updates and maintenance, along with integrating basic and advanced SEO practices to enhance visibility in search engine results. I worked alone in the first stage of the project up to deployment. Mid last year, I collaborated with a graphics designer and a front-end developer to redesign the website to what it is at the moment.",
-    features: [
-      "Responsive Design",
-      "CMS For Easy Content Updates",
-      "Scholarship Application Forms",
-      "Sponsorship Application Forms",
-      "Secure Donation & Sponsorship Payment Integrations",
-      "Newsletter Subscription & Auto-Updates",
-    ],
-    challenges: [
-      {
-        heading: "Content Management",
-        description:
-          "Adoption and customization of an intuitive CMS to allow the foundation's team to easily update and manage content without deep technical expertise was one of the challenges encountered.",
-      },
-      {
-        heading: "User Engagement",
-        description:
-          "Ensuring high user engagement and interaction through the website, particularly for applying to programs and donating to fund the programs was also a challenge that needed to be addressed.",
-      },
-    ],
-    solutions: [
-      {
-        heading: "User-Friendly CMS",
-        description:
-          "We implemented a WordPress-based CMS, utilizing customized theme templates and additional features that provided easy content management by the foundation's team.",
-      },
-      {
-        heading: "Interactive Features",
-        description:
-          "We also designed and developed interactive features such as application forms and donation integrations to enhance user engagement and interaction.",
-      },
-    ],
-    mobileImage: "/images/oaksafrica_mobile.webp",
-    tabletImage: "/images/oaksafrica_tablet.webp",
-    impact: [
-      "The website has significantly increased the foundation’s online visibility, leading to higher traffic and increased engagement with the community. The interactive scholarship and sponsorship applications, secure online donation payments and constant communication channels through newsletters and website adverts have simplified the process for users and elevated their experiences. The results are evident in more scholarship applications and donations as compared to when the process was only handled offline. The user-friendly CMS has empowered the foundation’s team to manage and update content efficiently without needing frequent technical support.",
-    ],
-    techStackDescription:
-      "For this project, we utilized a robust technology stack to ensure a responsive, user-friendly, and highly functional website. I initially built the front-end using HTML, CSS, and JavaScript to create a dynamic and engaging user experience. For the back-end I utilized WordPress, PHP, and MySQL, providing a robust and scalable platform for content management and data handling. I integrated IntaSend API for secure and efficient payment processing in online donations and sponsorship funding.",
-    techStack: [
-      { name: "WordPress", logo: "/images/wordpress.svg" },
-      { name: "HTML5", logo: "/images/html.svg" },
-      { name: "CSS", logo: "/images/css.svg" },
-      { name: "JavaScript", logo: "/images/javascript.svg" },
-      { name: "PHP", logo: "/images/php.svg" },
-      { name: "MySQL", logo: "/images/mysql_server.svg" },
-    ],
-    hasVideoDisplay: true,
-  },
-  {
     id: "transfrontieres",
     title: "Transfrontières Agencies Website",
     industry: "Multi-Service",
@@ -645,6 +583,88 @@ const projectData = [
       { name: "Node.js", logo: "/images/node.svg" },
       { name: "Vite", logo: "/images/vite.svg" },
       { name: "CSS3", logo: "/images/css.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
+  {
+    id: "afj",
+    title: "The Africa Farming Journal Web Project",
+    industry: "Media (Agriculture Focused)",
+    industryIcon: "media_link",
+    shortDescription:
+      "Africa Farming Journal's online space to highlight the transformative opportunites that Agriculture offers across Africa. It features informative articles, video and image galleries, past and upcoming events information, contact and subscription forms and much more.",
+    video: "/images/afj_proj_long.mp4",
+    duration: "3 Weeks",
+    launched: "September 2025",
+    laptopImage: "/images/afj_laptop.mp4",
+    projectOverview:
+      "Africa Farming Journal approached me with a vision to create a modern online platform that could amplify the transformative opportunities agriculture presents across Africa. The goal was to build more than just a website — it needed to be an interactive space that educates, inspires, and connects people within the African agricultural ecosystem. The platform I built highlights informative and well-researched articles on farming practices, agribusiness trends, and innovations shaping the continent’s agricultural landscape. To enhance engagement, the site also integrates multimedia content such as video reels, image galleries, and embedded YouTube content that bring stories to life in a dynamic and accessible way. Beyond content, the site also serves as a hub for community interaction and growth. It provides details about past and upcoming agricultural events, giving readers opportunities to connect with networks and initiatives in the sector. Subscription and contact forms were strategically included to foster audience engagement, build a loyal readership base, and ensure continuous communication with stakeholders.",
+    features: [
+      "Responsive Design",
+      "CMS For Easy Content Updates",
+      "Informative Blog Section",
+      "Video & Image Integration",
+      "SEO Best Practices",
+      "Contact, Subscription & Event Forms",
+    ],
+    challenges: [
+      {
+        heading: "Limited Branding Assets",
+        description:
+          "The client only had a logo without a defined color palette, typography, or brand guidelines, which made establishing a consistent design identity one of the challenges I had to deal with early on.",
+      },
+      {
+        heading: "Multimedia Integration",
+        description:
+          "The website needed to showcase blog articles alongside YouTube reels and image galleries. Balancing performance with smooth media embedding posed technical and design challenges.",
+      },
+      {
+        heading: "Content Availability",
+        description:
+          "Only a few articles were ready at the project start and video content was still in production, requiring a flexible content structure that could accommodate future updates.",
+      },
+      {
+        heading: "Timeline & Budget Constraints",
+        description:
+          "The project had to be delivered on a modest budget and within a short timeframe, requiring careful prioritization of essential features without compromising quality.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Developed A Simple Style Guide",
+        description:
+          "Using Canva, I created a clean and professional look by creating a complementary color palette and typography that aligned with the client’s logo. I then transfered this to my global theme variables on WordPress ensuring brand consistency across all pages.",
+      },
+      {
+        heading: "Optimized Media Embeds",
+        description:
+          "I configured the site to embed YouTube videos seamlessly and set up image galleries and all images used with lightweight sizing and formatting, balancing functionality with fast page load times.",
+      },
+      {
+        heading: "Flexible Content Structure",
+        description:
+          "I designed the blog and media sections with reusable templates so the client could easily add future articles, videos, and images without breaking the site layout.",
+      },
+      {
+        heading: "Lean Development Approach",
+        description:
+          "I focused on essential features first, that is content display, media integration, SEO, and responsiveness, while using quick customized templates, lightweight tools and only highly essential plugins to keep costs and delivery time within the client’s budget.",
+      },
+    ],
+    mobileImage: "/images/afj_mobile.webp",
+    tabletImage: "/images/afj_tablet.webp",
+    impact: [
+      "The completed website provided Africa Farming Journal with a clean, modern, and professional online presence that reflects its mission of highlighting agriculture’s transformative opportunities across Africa. Visitors can now easily access informative articles, image galleries, and embedded YouTube reels in a seamless and engaging way. With the addition of a newsletter signup and contact form, the site also created new opportunities for audience engagement and community building. The flexible structure and reusable templates make it simple to add future articles, videos, and events as the platform grows, while the integration of SEO best practices and responsive design ensures that the site is both visible on search engines and accessible across all devices. Overall, the upgraded platform not only enhanced credibility but also positioned Africa Farming Journal for long-term growth and scalability.",
+    ],
+    techStackDescription:
+      "The website was built on WordPress, leveraging its flexibility as a Content Management System to streamline publishing and future updates. The core development combined PHP for additional backend logic with MySQL for database management, ensuring smooth handling of content such as articles, events, and user subscriptions. On the frontend, I used a blend of HTML5, CSS, and JavaScript to create customized responsive and interactive user interfaces and experiences. This stack provided a balance of scalability, ease of maintenance, and performance, making it well-suited for Africa Farming Journal’s content-driven platform.",
+    techStack: [
+      { name: "WordPress", logo: "/images/wordpress.svg" },
+      { name: "HTML5", logo: "/images/html.svg" },
+      { name: "CSS", logo: "/images/css.svg" },
+      { name: "JavaScript", logo: "/images/javascript.svg" },
+      { name: "PHP", logo: "/images/php.svg" },
+      { name: "MySQL", logo: "/images/mysql_server.svg" },
     ],
     hasVideoDisplay: true,
   },
