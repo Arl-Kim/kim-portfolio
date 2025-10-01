@@ -668,6 +668,96 @@ const projectData = [
     ],
     hasVideoDisplay: true,
   },
+  {
+    id: "savannah-movies",
+    title: "Savannah Movies Prototype",
+    industry: "Media & Entertainment",
+    industryIcon: "movie_info",
+    shortDescription:
+      "Prototype for a modern web application built with React and TypeScript for discovering movies and exploring movie recommendations. It features user authentication, personalized recommendations, and seamless data fetching from The Movie Database (TMDB) API.",
+    video: "/images/savannah_proj_long.mp4",
+    duration: "1 Week",
+    launched: "September 2025",
+    laptopImage: "/images/savannah_laptop.mp4",
+    projectOverview:
+      "I developed this project as a prototype for a modern full-stack web application focused on movie discovery and recommendations. The goal of the prototype was to lay the foundation for a larger, more feature-rich platform by testing key ideas and validating the user experience. Built with React and TypeScript, the application delivers a fast, intuitive, and type-safe front-end that prioritizes performance and maintainability. The prototype integrates seamlessly with The Movie Database (TMDB) API, enabling real-time data fetching for movies, genres, and recommendations. Users can browse trending and popular titles, explore detailed movie information, and receive personalized suggestions based on their preferences. To support a tailored experience, the app also implements user authentication, allowing individuals to sign up, log in, and access customized features securely. Beyond showcasing technical feasibility, the prototype also provided a way to experiment with user interface design, responsiveness, and the flow of personalized recommendations. These early insights are critical in shaping the direction of the full-stack application I plan to develop in the near future, ensuring the final product will be scalable, user-centric, and capable of delivering an engaging movie discovery experience.",
+    features: [
+      "Movie Discovery",
+      "Advanced Search",
+      "Detailed Views",
+      "User Authentication",
+      "Personalized Interfaces",
+      "Responsive Design",
+    ],
+    challenges: [
+      {
+        heading: "Integrating TMDB API",
+        description:
+          "Ensuring seamless data fetching from The Movie Database (TMDB) API while handling rate limits and large datasets was a significant technical hurdle I had to address.",
+      },
+      {
+        heading: "Implementing User Authentication",
+        description:
+          "Designing a secure and smooth authentication system in a prototype environment required balancing simplicity with proper security practices.",
+      },
+      {
+        heading: "Managing State & Data Flow",
+        description:
+          "Coordinating user preferences, search results, and recommendations in real time created challenges around state management and data consistency.",
+      },
+      {
+        heading: "Ensuring Type Safety With TypeScript",
+        description:
+          "Leveraging TypeScript added robustness but also introduced complexity, particularly when dealing with external API responses and dynamic data structures.",
+      },
+      {
+        heading: "Balancing Scope vs. Prototype Speed",
+        description:
+          "As this was a prototype, prioritizing essential features without overbuilding was a challenge to ensure quick validation while keeping a path open for future scalability.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Integrating TMDB API",
+        description:
+          "I used Axios with a dedicated API service layer to handle requests efficiently. I also implemented pagination and request optimization to manage large datasets while staying within TMDB rate limits.",
+      },
+      {
+        heading: "Implementing User Authentication",
+        description:
+          "I set up a mock JWT-based login and logout flow to simulate authentication. This provided a secure baseline for personalized features without overcomplicating the prototype stage.",
+      },
+      {
+        heading: "Implemented Centralized State Management",
+        description:
+          "I adopted React Context API with useReducer to centralize state management. This allowed consistent handling of user preferences, search queries, and recommendations across the app.",
+      },
+      {
+        heading: "Ensuring TypeScript Type Safety",
+        description:
+          "I created custom type definitions for TMDB API responses in a dedicated types/ directory. This reduced runtime errors and improved maintainability while working with dynamic external data.",
+      },
+      {
+        heading: "Balancing Scope vs. Prototype Speed",
+        description:
+          "I first focused on core features: discovery, search, authentication, and recommendations, while leaving advanced functionality for future full-stack development. This kept the prototype lightweight yet effective.",
+      },
+    ],
+    mobileImage: "/images/savannah_mobile.webp",
+    tabletImage: "/images/savannah_tablet.webp",
+    impact: [
+      "The prototype successfully demonstrated the feasibility of building a modern, interactive movie discovery platform with React and TypeScript. By integrating TMDB’s API, it provided a rich catalog of movies and personalized recommendations, validating the core idea of delivering tailored content to users. The inclusion of user authentication and responsive design ensured a more realistic simulation of the final product, while also making the app accessible across devices. From a development perspective, the project proved valuable as a learning and experimentation ground. It helped refine approaches to type safety, state management, and modular architecture, ensuring the eventual full-stack implementation will be more robust and scalable. The deployment on platforms (Vercel and Netlify) made the prototype easily accessible for feedback and testing, accelerating the iteration cycle. Overall, the prototype had a strong impact as both a technical proof-of-concept and a user experience benchmark. It validated design decisions, revealed areas for improvement, and set a solid foundation for the future development of a full-featured movie recommendation web application.",
+    ],
+    techStackDescription:
+      "This prototype was developed using a modern front-end stack centered on React 18, chosen for its component-driven architecture and performance benefits. I integrated TypeScript to enforce type safety, reduce errors, and improve maintainability, particularly when working with external API data. Vite served as the build tool, providing a fast development environment with hot module replacement. For data fetching, I used Axios within a dedicated service layer, ensuring clean and reusable API calls to The Movie Database (TMDB). The application was styled with responsive CSS and reusable components to provide a consistent experience across devices. Testing was supported by Jest, Vitest and React Testing Library, which helped validate behavior of key services and components and ensured reliability. I also configured the project with GitLab CI/CD pipelines to streamline testing and deployment workflows. Collectively, this tech stack not only ensured speed and scalability but also provided a maintainable foundation for transitioning the prototype into a full-stack web application in the future.",
+    techStack: [
+      { name: "Vite", logo: "/images/vite.svg" },
+      { name: "React", logo: "/images/react.svg" },
+      { name: "TypeScript", logo: "/images/typescript.svg" },
+      { name: "CSS", logo: "/images/css.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
 ];
 
 const populateCaseStudyPage = (projectId) => {
