@@ -758,6 +758,67 @@ const projectData = [
     ],
     hasVideoDisplay: true,
   },
+  {
+    id: "myriad",
+    title: "Myriad Solutions Web Project",
+    industry: "Technology",
+    industryIcon: "cloud_sync",
+    shortDescription:
+      "Myriad Solution's online space to highlight their digital transformation services for offices and healthcare institutions to transition from paper-based processes to secure, cloud-driven digital systems that boost efficiency, compliance, and productivity.",
+    video: "/images/myriad_proj_long.mp4",
+    duration: "2 Weeks",
+    launched: "November 2025",
+    laptopImage: "/images/myriad_laptop.mp4",
+    projectOverview:
+      "The Myriad Solutions Web project focused on creating a modern, credible, and conversion-focused online presence for a company specializing in digital transformation for offices and healthcare institutions. The goal was to design and develop a WordPress-powered platform that clearly communicates Myriad’s ability to help organizations transition from paper-based processes to secure, cloud-driven digital systems. I combined a clean UI/UX design with strong messaging and an architecture optimized for service discovery, trust-building, and lead generation. The site showcases Myriad’s core offerings—including records digitization, workflow automation, cloud integration, and technical support, while emphasizing efficiency, compliance, and long-term operational improvement. Beyond aesthetics, I built the platform to strengthen credibility and simplify engagement. Visitors can easily learn about Myriad’s services, explore industry-specific solutions, and take action through strategically placed calls to action and an intuitive inquiry flow. The final result was a professional, scalable, and user-friendly website that positions Myriad Solutions as a forward-thinking partner in digital transformation.",
+    features: [
+      "Responsive Design",
+      "CMS For Easy Content Updates",
+      "Video & Image Integration",
+      "SEO Best Practices",
+      "Contact, & Consultation Booking Forms",
+    ],
+    challenges: [
+      {
+        heading: "Limited Branding Assets",
+        description:
+          "The client only had a logo without a defined color palette, typography, or brand guidelines, which made establishing a consistent design identity one of the challenges I had to deal with early on.",
+      },
+      {
+        heading: "Complex Service Structure",
+        description:
+          "Myriad Solutions offers multiple digital transformation services across different industries, and organizing this information in a way that is easy for users to understand posed an architectural and navigation challenge.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Developed A Simple Style Guide",
+        description:
+          "Using Canva, I created a clean and professional look by creating a complementary color palette and typography that aligned with the client’s logo. I then transfered this to my global theme variables on WordPress ensuring brand consistency across all pages.",
+      },
+      {
+        heading: "Designed an Intuitive Information Architecture",
+        description:
+          "I structured the site using streamlined service categories and clear navigation pathways, ensuring users could easily explore solutions based on their needs. This improved user flow and made the site more intuitive and conversion-friendly.",
+      },
+    ],
+    mobileImage: "/images/myriad_mobile.webp",
+    tabletImage: "/images/myriad_tablet.webp",
+    impact: [
+      "The Myriad Solutions website delivered a significant boost to the company’s digital presence by transforming a previously minimal online footprint into a credible, modern, and conversion-ready platform. With a clear visual identity, structured messaging, and an intuitive site architecture, the new website positions Myriad as a trusted partner for organizations transitioning from paper-based processes to cloud-driven digital systems. The improved clarity of services has strengthened client confidence, while streamlined navigation and purposeful calls to action have made it easier for potential clients to engage, inquire, and book consultations. Internally, the platform now serves as a strong foundation for future marketing efforts, enabling the team to showcase case studies, highlight expertise, and scale their operations with a professional online identity that reflects the true value of their work.",
+    ],
+    techStackDescription:
+      "The project was built using a modern and reliable WordPress ecosystem powered by a custom-coded foundation. WordPress served as the primary CMS, enabling flexible content management and smooth scalability for future site updates. The frontend structure was crafted with HTML5, CSS, and JavaScript, ensuring a responsive, accessible, and visually engaging user experience. On the backend, PHP was used to extend WordPress functionality and tailor the theme to the project’s unique requirements. MySQL powered the database layer, providing efficient data storage and retrieval for all site content. Together, these technologies created a fast, secure, and future-ready platform optimized for both performance and maintainability.",
+    techStack: [
+      { name: "WordPress", logo: "/images/wordpress.svg" },
+      { name: "HTML5", logo: "/images/html.svg" },
+      { name: "CSS", logo: "/images/css.svg" },
+      { name: "JavaScript", logo: "/images/javascript.svg" },
+      { name: "PHP", logo: "/images/php.svg" },
+      { name: "MySQL", logo: "/images/mysql_server.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
 ];
 
 const populateCaseStudyPage = (projectId) => {
