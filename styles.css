@@ -181,7 +181,7 @@ section {
 /***Animated Text Area Styles***/
 .home-content .animated-text {
   position: relative;
-  width: 32.8rem;
+  width: fit-content;
 }
 
 .home-content .animated-text h3 {
