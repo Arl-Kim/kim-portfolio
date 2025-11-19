@@ -703,6 +703,18 @@ span {
   width: 90%;
 }
 
+.skills-column:nth-child(2) .skills-content .progress:nth-child(10) .bar span {
+  width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(11) .bar span {
+  width: 90%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(12) .bar span {
+  width: 70%;
+}
+
 /*Projects Section Styles*/
 
 .rp-grid-area {
