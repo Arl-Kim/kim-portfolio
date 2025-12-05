@@ -819,6 +819,64 @@ const projectData = [
     ],
     hasVideoDisplay: true,
   },
+  {
+    id: "kigame",
+    title: "Dr. Reuben Kigame Website Redesign Project",
+    industry: "Education, Social Justice, Music",
+    industryIcon: "school",
+    shortDescription:
+      "Redesign and upgrade of Dr. Reuben Kigame's personal website, including a full rework of color schemes and theme, along with improved structure, layout, and updated content for an improved interface and user experience.",
+    video: "/images/kigame_proj_long.mp4",
+    duration: "2 Weeks",
+    launched: "November 2025",
+    laptopImage: "/images/kigame_laptop.mp4",
+    projectOverview:
+      "This project focused on transforming Dr. Reuben Kigame’s personal website into a modern, accessible, and professionally branded platform that better reflects his work, values, and public profile. The redesign involved developing a new visual identity, restructuring the site architecture, and enhancing content presentation to support clearer navigation and improved user engagement. The result is a cohesive digital experience that strengthens his online presence and communicates his message more effectively across audiences.",
+    features: [
+      "Responsive Design",
+      "CMS For Easy Content Updates",
+      "Video & Image Integration",
+      "SEO Best Practices",
+      "Contact Forms",
+    ],
+    challenges: [
+      {
+        heading: "Fragmented Legacy Content",
+        description:
+          "Much of the existing content, spanning blog articles, scholarly publications, music, court petitions, and public engagements, was scattered across different pages and formats, requiring careful consolidation and restructuring for a cleaner user experience.",
+      },
+      {
+        heading: "Content Organization Gaps",
+        description:
+          "With diverse content spanning music, writing, ministry, advocacy, and personal updates, restructuring and categorizing information in an intuitive way was a key challenge.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Unified Content Architecture",
+        description:
+          "I reorganized all legacy materials into a streamlined structure, grouping related content and creating clear pathways for users to access music, publications, petitions, and ministry work without confusion.",
+      },
+      {
+        heading: "Redesigned Navigation & Taxonomy",
+        description:
+          "Using a more intuitive menu, improved category groupings, and consistent content hierarchies, I ensured that visitors can easily explore Dr. Kigame’s diverse portfolio across writing, music, advocacy, and personal updates.",
+      },
+    ],
+    mobileImage: "/images/kigame_mobile.webp",
+    tabletImage: "/images/kigame_tablet.webp",
+    impact: [
+      "The redesign delivered a more coherent and engaging digital presence for Dr. Kigame, transforming his once fragmented website into a modern, accessible, and professionally structured platform. Visitors can now explore his music, writings, advocacy work, and public engagements with ease, thanks to streamlined navigation and clearer content organization. The refreshed branding strengthened his online identity, while improved layouts and readability enhanced user experience across devices. Overall, the project significantly improved discoverability, audience engagement, and the usability of a site that serves a wide range of followers, supporters, and researchers.",
+    ],
+    techStackDescription:
+      "The project was built on a WordPress foundation, allowing for flexible content management and seamless integration of the various media-rich sections required for Dr. Kigame’s work. Custom CSS was used to refine the site’s visual identity, ensuring the new branding elements, colors, typography, and layout were reflected consistently across all pages. PHP powered the theme customization and functional enhancements, enabling tailored templates, dynamic content handling, and improved performance. Together, these technologies provided a stable, scalable, and easily maintainable platform suited to the client’s long-term needs.",
+    techStack: [
+      { name: "WordPress", logo: "/images/wordpress.svg" },
+      { name: "CSS", logo: "/images/css.svg" },
+      { name: "PHP", logo: "/images/php.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
 ];
 
 const populateCaseStudyPage = (projectId) => {
