@@ -1,5 +1,4 @@
-/*General Styles*/
-
+/* General Styles  */
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +10,7 @@
   font-family: "Trebuchet MS", "Helvetica", Arial, sans-serif;
 }
 
-/***ROOT Variables***/
-
+/* ROOT Variables */
 :root {
   --bg-darkmode: #081b29;
   --second-bg-color: #112e42;
@@ -21,8 +19,7 @@
   --text-weight: 600;
 }
 
-/***Light Theme Variables***/
-
+/* Light Theme Variables */
 .light-theme {
   --bg-darkmode: #ededed;
   --text-color: #081b29;
@@ -55,8 +52,7 @@ li {
   font-size: 11px;
 }
 
-/*Header Styles*/
-
+/* Header Styles */
 .header {
   background: transparent;
   position: fixed;
@@ -140,8 +136,7 @@ li {
   display: none;
 }
 
-/*Home Section Styles*/
-
+/* Home Section Styles */
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
@@ -178,7 +173,7 @@ section {
   line-height: 1.3;
 }
 
-/***Animated Text Area Styles***/
+/* Animated Text Area Styles */
 .home-content .animated-text {
   position: relative;
   width: fit-content;
@@ -219,8 +214,7 @@ section {
   line-height: 1.7;
 }
 
-/***CTA Buttons Styles***/
-
+/* CTA Buttons Styles */
 .cta-buttons {
   position: relative;
   display: flex;
@@ -281,8 +275,7 @@ section {
   width: 100%;
 }
 
-/***Social Icons Styles***/
-
+/* Social Icons Styles */
 .home-socials {
   position: relative;
   margin-top: 40px;
@@ -339,8 +332,7 @@ section {
   height: 450px;
 }
 
-/*About Section Styles*/
-
+/* About Section Styles */
 .about {
   display: flex;
   justify-content: center;
@@ -419,8 +411,7 @@ span {
   background: var(--second-bg-color);
 }
 
-/*Education Section Styles*/
-
+/* Education Section Styles */
 .education {
   display: flex;
   justify-content: center;
@@ -517,8 +508,7 @@ span {
   padding-top: 0.5rem;
 }
 
-/*Skills Section Styles*/
-
+/* Skills Section Styles */
 .skills {
   min-height: auto;
   padding-bottom: 7rem;
@@ -606,7 +596,7 @@ span {
   border-radius: 2px;
 }
 
-/*** Progress Bar Percentages ***/
+/* Progress Bar Percentages */
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
   width: 100%;
 }
@@ -715,8 +705,7 @@ span {
   width: 70%;
 }
 
-/*Projects Section Styles*/
-
+/* Projects Section Styles */
 .rp-grid-area {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -828,8 +817,7 @@ span {
   margin-bottom: 20px;
 }
 
-/*Contact Section Styles*/
-
+/* Contact Section Styles */
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
@@ -920,8 +908,7 @@ span {
   color: red;
 }
 
-/*Case Study Page Styles*/
-
+/* Case Study Page Styles */
 .case-study-intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1269,8 +1256,7 @@ span {
   left: 7px;
 }
 
-/*Footer Section Styles*/
-
+/* Footer Section Styles */
 footer {
   display: flex;
   justify-content: space-between;
@@ -1357,7 +1343,7 @@ section:nth-child(odd) .animate.scroll {
   background: var(--second-bg-color);
 }
 
-/*Comments===Animate Switch (to toggle animate sections on scroll feature)*/
+/* Comments===Animate Switch (to toggle animate sections on scroll feature) */
 /*
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
@@ -1367,8 +1353,7 @@ section:nth-child(odd) .animate.scroll {
 }
 */
 
-/*Responsive Design BREAKPOINTS*/
-
+/* Responsive Design BREAKPOINTS */
 @media (max-width: 1200px) {
   html {
     font-size: 60%;
@@ -1774,8 +1759,7 @@ section:nth-child(odd) .animate.scroll {
   }
 }
 
-/*Animation KEYFRAMES*/
-
+/* Animation KEYFRAMES */
 @keyframes homeBgText {
   0%,
   10%,
