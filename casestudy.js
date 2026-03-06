@@ -727,6 +727,149 @@ const projectData = [
     ],
     hasVideoDisplay: true,
   },
+  {
+    id: "restored-minds",
+    title: "REMAKE Web Project",
+    industry: "Mental Health",
+    industryIcon: "volunteer_activism",
+    shortDescription:
+      "A modern web application developed for Restored Minds Akili Care Kenya (REMAKE), an organization dedicated to creating safe, non-judgmental spaces for individuals and communities impacted by mental health challenges.",
+    video: "/images/savannah_proj_long.mp4",
+    duration: "2 Weeks",
+    launched: "September 2025",
+    laptopImage: "/images/savannah_laptop.mp4",
+    projectOverview:
+      "The Restored Minds Akili Care Kenya (REMAKE) Web Application is an upcoming modern digital platform designed to strengthen the organization’s mission of promoting mental health awareness, providing psychosocial support, and connecting vulnerable individuals with compassionate care. The project began with the development of a high-performance React + Vite web application, currently deployed as a dynamic informational platform, with a clear roadmap toward evolving into a fully integrated full-stack system (MERN) as development progresses. At its current stage, the application functions as REMAKE’s public digital presence, presenting the organization’s mission, impact stories, programs, volunteer opportunities, and mental health initiatives in a clear, accessible, and engaging way. The platform was designed to reflect REMAKE’s values of compassion, dignity, faith-centered healing, and community support, ensuring that visitors can easily understand the organization’s work while also creating pathways for engagement, partnership, and support. My role in the project involves serving as a solo developer and system architect, responsible for designing the technical structure, implementing the frontend application, and planning the long-term system architecture. I am working closely with the organization’s vision and mission to ensure that the platform communicates their work authentically while also being technically robust and scalable. This included translating their mental health programs and community initiatives into clear digital experiences through thoughtful interface design, structured content organization, and responsive user interfaces. An important aspect of the development approach is continuous development and deployment. Instead of waiting for a fully completed system, I am building the platform iteratively, with new features and improvements released progressively. This approach allows REMAKE to benefit immediately from a professional online presence while the platform continues to grow into a more comprehensive digital service platform.",
+    features: [
+      "Informational Pages",
+      "Inquiry & Volunteer Forms",
+      "Automated Responses",
+      "Real-Time Analytics",
+      "Dynamic Interfaces",
+      "Responsive Design",
+    ],
+    challenges: [
+      {
+        heading: "Translating A Sensitive Mission Into A Digital Experience",
+        description:
+          "One of the primary challenges I am experiencing early on is accurately translating REMAKE’s deeply human-centered and faith-grounded mental health mission into a digital platform. Mental health is a sensitive subject, and the platform needs to communicate compassion, safety, and trust while remaining informative and professional. Achieving this balance I have found requires careful content structuring, thoughtful interface design, and close alignment with the organization’s values so that the platform feels welcoming rather than clinical or impersonal.",
+      },
+      {
+        heading: "Structuring A Scalable Architecture From The Beginning",
+        description:
+          "Although the project initially launched as a frontend-focused application, it was important to design the architecture with the future full MERN stack expansion in mind. This meant planning component structures, routing, and content organization in a way that would seamlessly integrate with future backend services such as databases, APIs, and administrative tools. Ensuring the current implementation would remain maintainable and scalable as the system grows required careful architectural decisions early in development.",
+      },
+      {
+        heading: "Balancing Rapid Deployment With Long-Term Development",
+        description:
+          "Another challenge involved balancing the need for quick deployment of a functional public website with the long-term vision of building a more complex platform. Since the organization needed an immediate digital presence to showcase their programs and impact, the project adopted a continuous development and deployment approach. This required prioritizing essential features for the first release while planning a structured roadmap for future enhancements without disrupting the live system.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Human-Centered & Faith-Aligned Design Approach",
+        description:
+          "To address the sensitivity of mental health communication, the platform was designed with a human-centered approach that prioritizes empathy, clarity, and accessibility. Careful attention was given to language, visual tone, and layout so that the site communicates compassion, hope, and trust while remaining professional and easy to navigate.",
+      },
+      {
+        heading: "Modular & Scalable Application Structure",
+        description:
+          "The project was structured using modular React components and a scalable project architecture to ensure that future backend services can be integrated smoothly. This allows upcoming features such as user accounts, data management, and service platforms to be added without requiring major structural changes.",
+      },
+      {
+        heading: "Iterative Development with Continuous Deployment",
+        description:
+          "To balance immediate needs with long-term goals, the project follows an iterative development strategy. A functional site was deployed early to establish REMAKE’s online presence, while additional features and backend capabilities will be introduced progressively through continuous development and deployment.",
+      },
+    ],
+    mobileImage: "/images/savannah_mobile.webp",
+    tabletImage: "/images/savannah_tablet.webp",
+    impact: [
+      "Although still in its early stages, the REMAKE web platform has already begun strengthening the organization’s digital presence and outreach capacity. By providing a clear, accessible, and thoughtfully designed online space, the website enables REMAKE to communicate its mission, share impact stories, and raise awareness about mental health support within communities. It serves as a foundation for connecting individuals in need with information about counseling, psychosocial support, and community programs. As the platform evolves into a full-stack application, it will further expand REMAKE’s ability to reach vulnerable populations, coordinate services, and scale its mental health initiatives across Kenya, ultimately supporting the organization’s mission of restoring hope, dignity, and emotional well-being.",
+    ],
+    techStackDescription:
+      "The REMAKE web platform is currently built using React with Vite to deliver a fast, modern, and highly responsive user experience. The front-end architecture focuses on modular, reusable components and optimized performance to ensure the website remains accessible across a wide range of devices and network conditions. Styling and layout structures were implemented to maintain visual clarity, accessibility, and ease of navigation for diverse users, including community members, partners, and potential volunteers. As the project evolves, the platform is planned to expand into a full-stack application using the MERN stack (MongoDB, Express.js, React, and Node.js), enabling dynamic data management, content updates, and scalable backend services to support future features such as program management, volunteer engagement, AI integration and resource distribution.",
+    techStack: [
+      { name: "Vite", logo: "/images/vite.svg" },
+      { name: "React", logo: "/images/react.svg" },
+      { name: "JavaScript", logo: "/images/javascript.svg" },
+      { name: "CSS", logo: "/images/css.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
+  {
+    id: "raanalytica",
+    title: "The Ra'Analytica Web Application Project",
+    industry: "Education (EdTech)",
+    industryIcon: "school",
+    shortDescription:
+      "Ra'Analytica is a MERN-based Learning Progress Analytics web application designed to enhance learning experiences through real-time insights, personalized feedback, and efficient activity management. The platform supports learners, tutors and parents/guardians by providing role-based dashboards, assessments, analytics and communication tools to promote engagement and academic growth.",
+    video: "/images/zealed_app_proj_long.mp4",
+    duration: "4 Months",
+    launched: "March 2026 (MVP)",
+    laptopImage: "/images/zealed_app_laptop.mp4",
+    projectOverview:
+      "The focus of this project is to build a platform to improve how learners, tutors, and parents monitor and support academic growth through data-driven insights. The application was designed to address a common challenge in modern learning environments: the lack of clear, real-time visibility into student progress, engagement, and performance. We are combining structured assessments, activity tracking, and interactive analytics dashboards, to empower educators and learners to make informed decisions that enhance the learning process. The project is being developed using the MERN stack (MongoDB, Express.js, React, and Node.js) and follows an Agile development approach using the Scrum framework. Development is iterative, with new features continuously delivered and deployed through an active CI/CD workflow, allowing the platform to evolve while remaining stable in production. We recently launched the Minimum Viable Product (MVP), which already includes several core features such as role-based dashboards, assessment management, and foundational analytics capabilities. Additional modules and enhancements continue to be added as the platform grows. My key contribution in this project is in a dual role as both Scrum Master and Full-Stack Developer, working closely with a cross-functional team consisting of another full-stack developer, two front-end developers (who contributed at different stages of the project), and a graphics/UI-UX designer. As Scrum Master, I facilitated sprint planning, task coordination, and team collaboration within the Scrum framework to ensure steady delivery of features while maintaining development momentum. On the technical side, I actively participated in both front-end and back-end development, helping implement core application features, integrate APIs, manage database interactions, and ensure smooth communication between the client and server layers. My overall approach focuses on building a scalable, modular architecture that supports incremental feature growth while maintaining performance and maintainability.",
+    features: [
+      "User Management",
+      "Role-Based Access Control (RBAC)",
+      "Activity Dashboards",
+      "Notes & Resources",
+      "Assessment Management",
+      "Progress Statistics & Analytics",
+      "Notification & Alerts System",
+    ],
+    challenges: [
+      {
+        heading: "Establishing Clear Product Scope During Early Development",
+        description:
+          "As the platform began development, defining the exact scope of the MVP was challenging. The project aimed to solve several problems around learner analytics, progress tracking, and assessment management, which meant there were many possible features to prioritize. Balancing what was essential for the first release while postponing more advanced analytics features required careful planning and continuous refinement.",
+      },
+      {
+        heading: "Coordinating Development Within A Growing Team",
+        description:
+          "With multiple contributors involved, including front-end developers joining at different stages and a UI/UX designer contributing to the visual direction, maintaining alignment across the team required efficient and consistent communication. Ensuring that everyone worked toward the same product vision while keeping development efficient was and is still an ongoing coordination challenge.",
+      },
+      {
+        heading: "Designing A Scalable Architecture From The Start",
+        description:
+          "Because the platform is intended to grow into a comprehensive learning analytics system, architectural decisions had to support long-term scalability. Structuring the codebase and database models in a way that would accommodate future features such as deeper analytics, expanded user roles, and additional integrations required thoughtful planning during early development.",
+      },
+    ],
+    solutions: [
+      {
+        heading: "Iterative Feature Prioritization Through Agile Sprints",
+        description:
+          "To manage the evolving scope, I proposed a structured Agile approach that emphasized iterative development. Features were broken down into manageable tasks and prioritized during sprint planning, allowing the team to focus on delivering the most critical functionality first while keeping room for future expansion.",
+      },
+      {
+        heading: "Structured Collaboration & Clear Development Roles",
+        description:
+          "In the effort of improving coordination, development tasks were organized and tracked throughout the sprint cycles. Regular communication in the Daily Scrum sessions and clearly defined responsibilities helped ensure that front-end, back-end, and design efforts remained aligned with the overall product roadmap. Currently, I am working alone to push the product forward from the MVP phase, so coordination and achieving seamless collaboration is not a challenge",
+      },
+      {
+        heading: "Modular & Scalable System Design",
+        description:
+          "The application architecture was designed with modularity in mind. I ensured we were keen to separate concerns across the client, server, and database layers and following standard MERN stack practices, the system remains flexible enough to accommodate future features without requiring major structural changes.",
+      },
+    ],
+    mobileImage: "/images/zealed_app_mobile.webp",
+    tabletImage: "/images/zealed_app_tablet.webp",
+    impact: [
+      "Even in its early stages, the platform has begun laying the foundation for a more data-driven approach to learning and assessment management. Structuring how assessment data is captured, categorized, and analyzed has enabled the system to create the groundwork for meaningful insights into both student performance and teacher activity. As the application continues to evolve, these analytics will support educators in identifying learning trends, monitoring engagement, and making more informed instructional decisions. Ultimately, the project aims to improve transparency around learning outcomes while helping institutions, groups and individuals better understand how teaching and assessment practices influence student progress.",
+    ],
+    techStackDescription:
+      "The platform is built using a modern JavaScript stack designed for performance, scalability, and maintainability. The frontend is developed with React and Vite, enabling fast development workflows and a responsive user experience. On the backend, the system leverages Node.js with Express to handle API services and application logic, while MongoDB provides a flexible document-based database for storing assessment data, user activity, and analytics metrics. Together, this MERN-based architecture supports the gradual evolution of the application from a basic analytics dashboard into a fully featured learning management and analytics platform.",
+    techStack: [
+      { name: "MongoDB", logo: "/images/mongodb.svg" },
+      { name: "Express.js", logo: "/images/express.svg" },
+      { name: "React", logo: "/images/react.svg" },
+      { name: "Node.js", logo: "/images/node.svg" },
+      { name: "Vite", logo: "/images/vite.svg" },
+      { name: "CSS3", logo: "/images/css.svg" },
+    ],
+    hasVideoDisplay: true,
+  },
 ];
 
 const populateCaseStudyPage = (projectId) => {
