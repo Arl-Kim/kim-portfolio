@@ -426,18 +426,18 @@ const projectData = [
     hasVideoDisplay: true,
   },
   {
-    id: "zealed-web-app",
-    title: "The Zealed Web Application Project",
+    id: "ra-intern",
+    title: "The Ra'Intern Web Application Project",
     industry: "Multi-Service, Careers",
     industryIcon: "business_center",
     shortDescription:
-      "A MERN stack web application for Zealed.Co for dynamic internship listings, with features that cater to posting internship opportunities, tracking applications and sharing and contributing career tips.",
-    video: "/images/zealed_app_proj_long.mp4",
+      "A MERN stack web application for dynamic internship listings, with features that cater to posting internship opportunities, tracking applications and sharing and contributing career tips.",
+    video: "/images/ra-intern-proj-long.mp4",
     duration: "1 Month",
-    launched: "June 2025 (MVP)",
-    laptopImage: "/images/zealed_app_laptop.mp4",
+    launched: "February 2025 (MVP)",
+    laptopImage: "/images/ra-intern-laptop.webp",
     projectOverview:
-      "The second phase of the Zealed Web Project resulted in the creation of an improved dynamic web platform for Zealed.Co. I worked hand in hand with the Product Owner and a Graphics and UI/UX Designer contributing my Full-Stack and Scrum Master expertise to build a full-featured MERN stack web application designed to streamline the internship experience for both organizations/employers and applicants. Built using MongoDB, Express.js, React, and Node.js, the platform allows administrators, authorized editors and employers to dynamically post and manage internship opportunities, while providing applicants with an intuitive interface to browse listings, submit applications, and track their application progress. Beyond listings and application tracking, the portal includes a collaborative space where users can share and contribute career development tips, creating a vibrant community focused on professional growth. This comprehensive system supports both administrative efficiency and user engagement, making it a valuable tool for Zealed.Co’s talent development ecosystem. We just launched the MVP and the work continues to improve the platform continuously, applying strict Agile Scrum with efficient Continuous Integration/Continuous Development methods.",
+      "The second phase of the Ra'Intern Web Project resulted in the creation of an improved dynamic web platform for Ra'Intern. I worked hand in hand with the Product Owner and a Graphics and UI/UX Designer contributing my Full-Stack and Scrum Master expertise to build a full-featured MERN stack web application designed to streamline the internship experience for both organizations/employers and applicants. Built using MongoDB, Express.js, React, and Node.js, the platform allows administrators, authorized editors and employers to dynamically post and manage internship opportunities, while providing applicants with an intuitive interface to browse listings, submit applications, and track their application progress. Beyond listings and application tracking, the portal includes a collaborative space where users can share and contribute career development tips, creating a vibrant community focused on professional growth. This comprehensive system supports both administrative efficiency and user engagement, making it a valuable tool for Ra'Intern.Co’s talent development ecosystem. We just launched the MVP and the work continues to improve the platform continuously, applying strict Agile Scrum with efficient Continuous Integration/Continuous Development methods.",
     features: [
       "User Management",
       "Role-Based Access Control (RBAC)",
@@ -501,13 +501,13 @@ const projectData = [
           "We maintained a tight feedback loop with the designer and product owner using Figma and iterative previews, enabling smooth transitions from mockups to responsive, pixel-perfect React components compatible across screen sizes.",
       },
     ],
-    mobileImage: "/images/zealed_app_mobile.webp",
-    tabletImage: "/images/zealed_app_tablet.webp",
+    mobileImage: "/images/ra-intern-mobile.webp",
+    tabletImage: "/images/ra-intern-tablet.webp",
     impact: [
-      "The second phase of the Zealed Web Project deepened the platform’s real-world impact by transforming it from a static showcase into a dynamic, interactive ecosystem for opportunity and growth. For individuals, especially students and early-career professionals, the platform now offers a more empowering experience, enabling them not just to discover internships but to actively manage their applications and learn from community-contributed career insights. Employers and organizations benefit from a streamlined channel to attract and assess candidates, saving time and ensuring their opportunities reach the right audiences. At a broader level, the platform fosters a culture of knowledge-sharing and mentorship through its collaborative features, promoting professional development within the community. Overrall, this upgraded system plays a pivotal role in bridging the gap between talent and opportunity, by supporting structured workflows, inclusive access, and continuous engagement,  reinforcing Zealed.Co’s commitment to youth empowerment and workforce readiness across the region.",
+      "The second phase of the Ra'Intern Web Project deepened the platform’s real-world impact by transforming it from a static showcase into a dynamic, interactive ecosystem for opportunity and growth. For individuals, especially students and early-career professionals, the platform now offers a more empowering experience, enabling them not just to discover internships but to actively manage their applications and learn from community-contributed career insights. Employers and organizations benefit from a streamlined channel to attract and assess candidates, saving time and ensuring their opportunities reach the right audiences. At a broader level, the platform fosters a culture of knowledge-sharing and mentorship through its collaborative features, promoting professional development within the community. Overrall, this upgraded system plays a pivotal role in bridging the gap between talent and opportunity, by supporting structured workflows, inclusive access, and continuous engagement,  reinforcing Ra'Intern.Co’s commitment to youth empowerment and workforce readiness across the region.",
     ],
     techStackDescription:
-      "The Zealed Web App was built using the MERN stack: MongoDB, Express.js, React, and Node.js, providing a robust and scalable foundation for both frontend and backend development. React, bundled with Vite for faster build times and a more efficient development experience, powered the dynamic and responsive user interface, enabling smooth navigation and real-time updates across the platform. Express.js and Node.js handled the backend logic and RESTful APIs, ensuring secure data flow and seamless integration with the external services, Mailgun and LinkedIn. MongoDB served as the primary database, offering flexibility in managing complex user roles, application statuses, and dynamic content structures. On the design side, Figma was used by the UI/UX designer to craft high-fidelity prototypes, allowing for smooth handoff and close collaboration between design and development. This modern, full-stack architecture allows for rapid iteration, strong performance, and scalability as the platform evolves beyond its MVP.",
+      "The Ra'Intern Web App was built using the MERN stack: MongoDB, Express.js, React, and Node.js, providing a robust and scalable foundation for both frontend and backend development. React, bundled with Vite for faster build times and a more efficient development experience, powered the dynamic and responsive user interface, enabling smooth navigation and real-time updates across the platform. Express.js and Node.js handled the backend logic and RESTful APIs, ensuring secure data flow and seamless integration with the external services, Mailgun and LinkedIn. MongoDB served as the primary database, offering flexibility in managing complex user roles, application statuses, and dynamic content structures. On the design side, Figma was used by the UI/UX designer to craft high-fidelity prototypes, allowing for smooth handoff and close collaboration between design and development. This modern, full-stack architecture allows for rapid iteration, strong performance, and scalability as the platform evolves beyond its MVP.",
     techStack: [
       { name: "MongoDB", logo: "/images/mongodb.svg" },
       { name: "Express.js", logo: "/images/express.svg" },
@@ -516,7 +516,6 @@ const projectData = [
       { name: "Vite", logo: "/images/vite.svg" },
       { name: "CSS3", logo: "/images/css.svg" },
     ],
-    hasVideoDisplay: true,
   },
   {
     id: "savannah-movies",
@@ -734,10 +733,10 @@ const projectData = [
     industryIcon: "volunteer_activism",
     shortDescription:
       "A modern web application developed for Restored Minds Akili Care Kenya (REMAKE), an organization dedicated to creating safe, non-judgmental spaces for individuals and communities impacted by mental health challenges.",
-    video: "/images/savannah_proj_long.mp4",
+    video: "/images/restored-minds-proj-long.mp4",
     duration: "2 Weeks",
     launched: "September 2025",
-    laptopImage: "/images/savannah_laptop.mp4",
+    laptopImage: "/images/restored-minds-laptop.webp",
     projectOverview:
       "The Restored Minds Akili Care Kenya (REMAKE) Web Application is an upcoming modern digital platform designed to strengthen the organization’s mission of promoting mental health awareness, providing psychosocial support, and connecting vulnerable individuals with compassionate care. The project began with the development of a high-performance React + Vite web application, currently deployed as a dynamic informational platform, with a clear roadmap toward evolving into a fully integrated full-stack system (MERN) as development progresses. At its current stage, the application functions as REMAKE’s public digital presence, presenting the organization’s mission, impact stories, programs, volunteer opportunities, and mental health initiatives in a clear, accessible, and engaging way. The platform was designed to reflect REMAKE’s values of compassion, dignity, faith-centered healing, and community support, ensuring that visitors can easily understand the organization’s work while also creating pathways for engagement, partnership, and support. My role in the project involves serving as a solo developer and system architect, responsible for designing the technical structure, implementing the frontend application, and planning the long-term system architecture. I am working closely with the organization’s vision and mission to ensure that the platform communicates their work authentically while also being technically robust and scalable. This included translating their mental health programs and community initiatives into clear digital experiences through thoughtful interface design, structured content organization, and responsive user interfaces. An important aspect of the development approach is continuous development and deployment. Instead of waiting for a fully completed system, I am building the platform iteratively, with new features and improvements released progressively. This approach allows REMAKE to benefit immediately from a professional online presence while the platform continues to grow into a more comprehensive digital service platform.",
     features: [
@@ -782,8 +781,8 @@ const projectData = [
           "To balance immediate needs with long-term goals, the project follows an iterative development strategy. A functional site was deployed early to establish REMAKE’s online presence, while additional features and backend capabilities will be introduced progressively through continuous development and deployment.",
       },
     ],
-    mobileImage: "/images/savannah_mobile.webp",
-    tabletImage: "/images/savannah_tablet.webp",
+    mobileImage: "/images/restored-minds-mobile.webp",
+    tabletImage: "/images/restored-minds-tablet.webp",
     impact: [
       "Although still in its early stages, the REMAKE web platform has already begun strengthening the organization’s digital presence and outreach capacity. By providing a clear, accessible, and thoughtfully designed online space, the website enables REMAKE to communicate its mission, share impact stories, and raise awareness about mental health support within communities. It serves as a foundation for connecting individuals in need with information about counseling, psychosocial support, and community programs. As the platform evolves into a full-stack application, it will further expand REMAKE’s ability to reach vulnerable populations, coordinate services, and scale its mental health initiatives across Kenya, ultimately supporting the organization’s mission of restoring hope, dignity, and emotional well-being.",
     ],
@@ -795,7 +794,6 @@ const projectData = [
       { name: "JavaScript", logo: "/images/javascript.svg" },
       { name: "CSS", logo: "/images/css.svg" },
     ],
-    hasVideoDisplay: true,
   },
   {
     id: "raanalytica",
@@ -804,10 +802,10 @@ const projectData = [
     industryIcon: "school",
     shortDescription:
       "Ra'Analytica is a MERN-based Learning Progress Analytics web application designed to enhance learning experiences through real-time insights, personalized feedback, and efficient activity management. The platform supports learners, tutors and parents/guardians by providing role-based dashboards, assessments, analytics and communication tools to promote engagement and academic growth.",
-    video: "/images/zealed_app_proj_long.mp4",
+    video: "/images/ra-analytica-proj-long.mp4",
     duration: "4 Months",
     launched: "March 2026 (MVP)",
-    laptopImage: "/images/zealed_app_laptop.mp4",
+    laptopImage: "/images/ra-analytica-laptop.webp",
     projectOverview:
       "The focus of this project is to build a platform to improve how learners, tutors, and parents monitor and support academic growth through data-driven insights. The application was designed to address a common challenge in modern learning environments: the lack of clear, real-time visibility into student progress, engagement, and performance. We are combining structured assessments, activity tracking, and interactive analytics dashboards, to empower educators and learners to make informed decisions that enhance the learning process. The project is being developed using the MERN stack (MongoDB, Express.js, React, and Node.js) and follows an Agile development approach using the Scrum framework. Development is iterative, with new features continuously delivered and deployed through an active CI/CD workflow, allowing the platform to evolve while remaining stable in production. We recently launched the Minimum Viable Product (MVP), which already includes several core features such as role-based dashboards, assessment management, and foundational analytics capabilities. Additional modules and enhancements continue to be added as the platform grows. My key contribution in this project is in a dual role as both Scrum Master and Full-Stack Developer, working closely with a cross-functional team consisting of another full-stack developer, two front-end developers (who contributed at different stages of the project), and a graphics/UI-UX designer. As Scrum Master, I facilitated sprint planning, task coordination, and team collaboration within the Scrum framework to ensure steady delivery of features while maintaining development momentum. On the technical side, I actively participated in both front-end and back-end development, helping implement core application features, integrate APIs, manage database interactions, and ensure smooth communication between the client and server layers. My overall approach focuses on building a scalable, modular architecture that supports incremental feature growth while maintaining performance and maintainability.",
     features: [
@@ -853,8 +851,8 @@ const projectData = [
           "The application architecture was designed with modularity in mind. I ensured we were keen to separate concerns across the client, server, and database layers and following standard MERN stack practices, the system remains flexible enough to accommodate future features without requiring major structural changes.",
       },
     ],
-    mobileImage: "/images/zealed_app_mobile.webp",
-    tabletImage: "/images/zealed_app_tablet.webp",
+    mobileImage: "/images/ra-analytica-mobile.webp",
+    tabletImage: "/images/ra-analytica-tablet.webp",
     impact: [
       "Even in its early stages, the platform has begun laying the foundation for a more data-driven approach to learning and assessment management. Structuring how assessment data is captured, categorized, and analyzed has enabled the system to create the groundwork for meaningful insights into both student performance and teacher activity. As the application continues to evolve, these analytics will support educators in identifying learning trends, monitoring engagement, and making more informed instructional decisions. Ultimately, the project aims to improve transparency around learning outcomes while helping institutions, groups and individuals better understand how teaching and assessment practices influence student progress.",
     ],
@@ -868,7 +866,6 @@ const projectData = [
       { name: "Vite", logo: "/images/vite.svg" },
       { name: "CSS3", logo: "/images/css.svg" },
     ],
-    hasVideoDisplay: true,
   },
 ];
 
