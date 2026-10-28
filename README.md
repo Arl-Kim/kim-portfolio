@@ -1,6 +1,6 @@
 # Kimutai's Portfolio
 
-Welcome to my personal portfolio! I'm an enthusiastic Software Engineer with 2 years of experience, and this is my space on the internet where I showcase my skills, projects, and journey in the world of Sofware Engineering.
+Welcome to my personal website! I'm a results-driven Software Engineer with 5 years of experience, and this is my space on the internet where I showcase my skills, projects, and my journey through this amazing world of Software Engineering.
 
 ## Table of Contents
 
